@@ -1,0 +1,3143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenText xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <Header>
+      <fileDesc>
+         <titleStmt>
+            <title>The OpenText.org Syntactically Annotated Greek New Testament</title>
+            <editor>Stanley E. Porter</editor>
+            <editor>Matthew Brook O'Donnell</editor>
+            <editor>Jeffrey T. Reed</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.11</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>www.opentext.org</authority>
+            <availability>
+               <p>This annotation has been produced by OpenText.org. It should not be cited or distributed without proper attribution.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>These files contain the original v0.11 syntax annotations, but they have been converted to a new, inline XML format by Christopher D. Land and the base text has been corrected and updated to the
+                            NA28. Together, these developments have resulted in minor changes to the annotation.</note>
+            <note>Corrections are welcome either through GitHub, the project website (www.opentext.org), or a direct email to Christopher D. Land.</note>
+            <note>Because the files represent (more-or-less) the original annotation, they will not be maintained. All interim corrections or updates will be released in the OpenText 1.5 repository, until we are ready for the release of OpenText 2.0.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>The text is that of Novum Testamentum Graece, 28th revised edition, edited by Barbara Aland et al. (Stuttgart: Deutsche Bibelgesellschaft, 2012).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl>
+            <refState unit="chapter" delim=":"/>
+            <refState unit="verse"/>
+         </refsDecl>
+      </encodingDesc>
+   </Header>
+   <text xml:id="NA28.3John">
+      <milestone xml:id="NA28.3John.1" unit="chapter" n="1"/>
+      <milestone xml:id="NA28.3John.1.1" unit="verse" n="1"/>
+      <seg type="cl" xml:id="NA28.3John.1.1.w1-w5" old_id="NT.3Joh.1_c1">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.1.w1-w2"
+              old_id="NT.3Joh.1_wg1">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.1.w1"
+               old_id="NT.3Joh.w1"
+               pos="article"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="πρεσβύτερος"
+               xml:id="NA28.3John.1.1.w2"
+               old_id="NT.3Joh.w2"
+               pos="adjective"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="67 9 53"
+               subdomains="67.102 67.27 9.31 53.77"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.1.w3-w5"
+              old_id="NT.3Joh.1_wg2">
+            <w function="head"
+               lemma="Γάϊος"
+               xml:id="NA28.3John.1.1.w3"
+               old_id="NT.3Joh.w3"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="singular"
+               domains="93"
+               subdomains="93.83"/>
+            <seg function="definer" type="wg" xml:id="NA28.3John.1.1.w4-w5">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.3John.1.1.w4"
+                  old_id="NT.3Joh.w4"
+                  pos="article"
+                  gender="masculine"
+                  case="dative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="ἀγαπητός"
+                  xml:id="NA28.3John.1.1.w5"
+                  old_id="NT.3Joh.w5"
+                  pos="adjective"
+                  gender="masculine"
+                  case="dative"
+                  number="singular"
+                  domains="25 58"
+                  subdomains="25.45 58.83"/>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.1.w6-w10"
+           old_id="NT.3Joh.1_c2"
+           level="secondary"
+           connect="NA28.3John.1.1.w1-w5">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.1.w6"
+              old_id="NT.3Joh.1_wg3">
+            <w function="head"
+               lemma="ὅς"
+               xml:id="NA28.3John.1.1.w6"
+               old_id="NT.3Joh.w6"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.1.w7"
+              old_id="NT.3Joh.1_wg4">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.3John.1.1.w7"
+               old_id="NT.3Joh.w7"
+               pos="pronoun"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.1.w8"
+              old_id="NT.3Joh.1_wg5">
+            <w function="head"
+               lemma="ἀγαπάω"
+               xml:id="NA28.3John.1.1.w8"
+               old_id="NT.3Joh.w8"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="25"
+               subdomains="25.43 25.44 25.104"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.1.w9-w10"
+              old_id="NT.3Joh.1_wg6">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.3John.1.1.w9"
+               old_id="NT.3Joh.w9"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="head"
+               lemma="ἀλήθεια"
+               xml:id="NA28.3John.1.1.w10"
+               old_id="NT.3Joh.w10"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="72"
+               subdomains="72.2"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.2" unit="verse" n="2"/>
+      <seg type="cl" xml:id="NA28.3John.1.2.w1-w8" old_id="NT.3Joh.1_c3">
+         <seg function="addressee"
+              type="wg"
+              xml:id="NA28.3John.1.2.w1"
+              old_id="NT.3Joh.1_wg7">
+            <w function="head"
+               lemma="ἀγαπητός"
+               xml:id="NA28.3John.1.2.w1"
+               old_id="NT.3Joh.w11"
+               pos="adjective"
+               gender="masculine"
+               case="vocative"
+               number="singular"
+               domains="25 58"
+               subdomains="25.45 58.83"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.2.w2-w3"
+              old_id="NT.3Joh.1_wg8">
+            <w function="specifier"
+               lemma="περί"
+               xml:id="NA28.3John.1.2.w2"
+               old_id="NT.3Joh.w12"
+               pos="preposition"
+               domains="83 90 67 89"
+               subdomains="83.18 90.24 90.39 67.35 89.36 89.110 89.6"/>
+            <w function="head"
+               lemma="πᾶς"
+               xml:id="NA28.3John.1.2.w3"
+               old_id="NT.3Joh.w13"
+               pos="adjective"
+               gender="neuter"
+               case="genitive"
+               number="plural"
+               domains="59 78 63 58"
+               subdomains="59.23 59.24 78.44 63.2 58.28"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.2.w4"
+              old_id="NT.3Joh.1_wg9">
+            <w function="head"
+               lemma="εὔχομαι"
+               xml:id="NA28.3John.1.2.w4"
+               old_id="NT.3Joh.w14"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="33 25"
+               subdomains="33.178 25.6"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement" xml:id="NA28.3John.1.2.w5-w8">
+            <seg type="cl" xml:id="NA28.3John.1.2.w5-w6" old_id="NT.3Joh.1_c4">
+               <seg function="subject"
+                    type="wg"
+                    xml:id="NA28.3John.1.2.w5"
+                    old_id="NT.3Joh.1_wg10">
+                  <w function="head"
+                     lemma="σύ"
+                     xml:id="NA28.3John.1.2.w5"
+                     old_id="NT.3Joh.w15"
+                     pos="pronoun"
+                     case="accusative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.6"/>
+               </seg>
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.3John.1.2.w6"
+                    old_id="NT.3Joh.1_wg11">
+                  <w function="head"
+                     lemma="εὐοδόομαι"
+                     xml:id="NA28.3John.1.2.w6"
+                     old_id="NT.3Joh.w16"
+                     pos="infinitive"
+                     voice="middle-or-passive"
+                     domains="22 57 68"
+                     subdomains="22.47 57.64 68.30"
+                     tense="present"/>
+               </seg>
+            </seg>
+            <seg type="cl" xml:id="NA28.3John.1.2.w7-w8" old_id="NT.3Joh.1_c5">
+               <seg function="conjunction"
+                    type="wg"
+                    xml:id="NA28.3John.1.2.w7"
+                    old_id="NT.3Joh.1_wg12">
+                  <w function="head"
+                     lemma="καί"
+                     xml:id="NA28.3John.1.2.w7"
+                     old_id="NT.3Joh.w17"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               </seg>
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.3John.1.2.w8"
+                    old_id="NT.3Joh.1_wg13">
+                  <w function="head"
+                     lemma="ὑγιαίνω"
+                     xml:id="NA28.3John.1.2.w8"
+                     old_id="NT.3Joh.w18"
+                     pos="infinitive"
+                     voice="active"
+                     domains="23 72"
+                     subdomains="23.129 72.15"
+                     tense="present"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.2.w9-w13"
+           old_id="NT.3Joh.1_c6"
+           level="secondary"
+           connect="NA28.3John.1.2.w1-w8">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.2.w9"
+              old_id="NT.3Joh.1_wg14">
+            <w function="head"
+               lemma="καθώς"
+               xml:id="NA28.3John.1.2.w9"
+               old_id="NT.3Joh.w19"
+               pos="particle"
+               domains="78 89 64 67"
+               subdomains="78.53 89.34 89.86 64.14 67.33"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.2.w10"
+              old_id="NT.3Joh.1_wg15">
+            <w function="head"
+               lemma="εὐοδόομαι"
+               xml:id="NA28.3John.1.2.w10"
+               old_id="NT.3Joh.w20"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="22 57 68"
+               subdomains="22.47 57.64 68.30"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.2.w11-w13"
+              old_id="NT.3Joh.1_wg16">
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.3John.1.2.w11"
+               old_id="NT.3Joh.w21"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.2.w12"
+               old_id="NT.3Joh.w22"
+               pos="article"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ψυχή"
+               xml:id="NA28.3John.1.2.w13"
+               old_id="NT.3Joh.w23"
+               pos="noun"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="26 23 9"
+               subdomains="26.4 23.88 9.20"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.3" unit="verse" n="3"/>
+      <seg type="cl" xml:id="NA28.3John.1.3.w1-w3" old_id="NT.3Joh.1_c7">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.3.w1"
+              old_id="NT.3Joh.1_wg17">
+            <w function="head"
+               lemma="χαίρω"
+               xml:id="NA28.3John.1.3.w1"
+               old_id="NT.3Joh.w24"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="25 33"
+               subdomains="25.125 33.22"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.3.w2"
+              old_id="NT.3Joh.1_wg18">
+            <w function="head"
+               lemma="γάρ"
+               xml:id="NA28.3John.1.3.w2"
+               old_id="NT.3Joh.w25"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.23 91.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.3.w3"
+              old_id="NT.3Joh.1_wg19">
+            <w function="head"
+               lemma="λίαν"
+               xml:id="NA28.3John.1.3.w3"
+               old_id="NT.3Joh.w26"
+               pos="adverb"
+               domains="78"
+               subdomains="78.1"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.3.w4-w5"
+           old_id="NT.3Joh.1_c8"
+           level="secondary"
+           connect="NA28.3John.1.3.w1-w3">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.3.w4"
+              old_id="NT.3Joh.1_wg20">
+            <w function="head"
+               lemma="ἔρχομαι"
+               xml:id="NA28.3John.1.3.w4"
+               old_id="NT.3Joh.w27"
+               pos="participle"
+               voice="middle-or-passive"
+               gender="masculine"
+               case="genitive"
+               number="plural"
+               domains="15 13"
+               subdomains="15.7 15.81 13.50 13.117"
+               tense="present"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.3.w5"
+              old_id="NT.3Joh.1_wg21">
+            <w function="head"
+               lemma="ἀδελφός"
+               xml:id="NA28.3John.1.3.w5"
+               old_id="NT.3Joh.w28"
+               pos="noun"
+               gender="masculine"
+               case="genitive"
+               number="plural"
+               domains="10 11"
+               subdomains="10.49 11.23 11.25 11.57 11.89"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.3.w6-w10"
+           old_id="NT.3Joh.1_c9"
+           level="secondary"
+           connect="NA28.3John.1.3.w4-w5">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.3.w6"
+              old_id="NT.3Joh.1_wg22">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.3.w6"
+               old_id="NT.3Joh.w29"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.3.w7"
+              old_id="NT.3Joh.1_wg23">
+            <w function="head"
+               lemma="μαρτυρέω"
+               xml:id="NA28.3John.1.3.w7"
+               old_id="NT.3Joh.w30"
+               pos="participle"
+               voice="active"
+               gender="masculine"
+               case="genitive"
+               number="plural"
+               domains="33"
+               subdomains="33.223 33.319"
+               tense="present"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.3.w8-w10"
+              old_id="NT.3Joh.1_wg24">
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.3John.1.3.w8"
+               old_id="NT.3Joh.w31"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.3.w9"
+               old_id="NT.3Joh.w32"
+               pos="article"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀλήθεια"
+               xml:id="NA28.3John.1.3.w10"
+               old_id="NT.3Joh.w33"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="72"
+               subdomains="72.2"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.3.w11-w15"
+           old_id="NT.3Joh.1_c10"
+           level="secondary2"
+           connect="NA28.3John.1.3.w6-w10">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.3.w11"
+              old_id="NT.3Joh.1_wg25">
+            <w function="head"
+               lemma="καθώς"
+               xml:id="NA28.3John.1.3.w11"
+               old_id="NT.3Joh.w34"
+               pos="particle"
+               domains="78 89 64 67"
+               subdomains="78.53 89.34 89.86 64.14 67.33"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.3.w12"
+              old_id="NT.3Joh.1_wg26">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.3John.1.3.w12"
+               old_id="NT.3Joh.w35"
+               pos="pronoun"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.3.w13-w14"
+              old_id="NT.3Joh.1_wg27">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.3John.1.3.w13"
+               old_id="NT.3Joh.w36"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="head"
+               lemma="ἀλήθεια"
+               xml:id="NA28.3John.1.3.w14"
+               old_id="NT.3Joh.w37"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="72"
+               subdomains="72.2"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.3.w15"
+              old_id="NT.3Joh.1_wg28">
+            <w function="head"
+               lemma="περιπατέω"
+               xml:id="NA28.3John.1.3.w15"
+               old_id="NT.3Joh.w38"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="15 41"
+               subdomains="15.227 41.11"
+               tense="present"
+               person="second"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.4" unit="verse" n="4"/>
+      <seg type="cl" xml:id="NA28.3John.1.4.w1-w5" old_id="NT.3Joh.1_c11">
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.4.w1-w2"
+              old_id="NT.3Joh.1_wg29">
+            <w function="head"
+               lemma="μείζων"
+               xml:id="NA28.3John.1.4.w1"
+               old_id="NT.3Joh.w39"
+               pos="adjective"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               degree="comparative"
+               domains="59 78 79 87 25"
+               subdomains="59.22 78.2 79.123 87.22 25.207"/>
+            <w function="qualifier"
+               lemma="οὗτος"
+               xml:id="NA28.3John.1.4.w2"
+               old_id="NT.3Joh.w40"
+               pos="pronoun"
+               gender="neuter"
+               case="genitive"
+               number="plural"
+               domains="92"
+               subdomains="92.29"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.4.w3"
+              old_id="NT.3Joh.1_wg30">
+            <w function="head"
+               lemma="οὐ"
+               xml:id="NA28.3John.1.4.w3"
+               old_id="NT.3Joh.w41"
+               pos="particle"
+               domains="69"
+               subdomains="69.3 69.11"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.4.w4"
+              old_id="NT.3Joh.1_wg31">
+            <w function="head"
+               lemma="ἔχω"
+               xml:id="NA28.3John.1.4.w4"
+               old_id="NT.3Joh.w42"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57 18 31 49 74 90 13 90"
+               subdomains="57.1 18.6 31.1 49.13 74.12 90.65 13.2 90.51 90.27"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.4.w5"
+              old_id="NT.3Joh.1_wg32">
+            <w function="head"
+               lemma="χαρά"
+               xml:id="NA28.3John.1.4.w5"
+               old_id="NT.3Joh.w43"
+               pos="noun"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               domains="25"
+               subdomains="25.123 25.124"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.4.w6-w13"
+           old_id="NT.3Joh.1_c12"
+           level="secondary"
+           connect="NA28.3John.1.4.w1-w5">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.4.w6"
+              old_id="NT.3Joh.1_wg33">
+            <w function="head"
+               lemma="ἵνα"
+               xml:id="NA28.3John.1.4.w6"
+               old_id="NT.3Joh.w44"
+               pos="particle"
+               domains="89 90 91"
+               subdomains="89.59 89.49 90.22 91.15"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.4.w7"
+              old_id="NT.3Joh.1_wg34">
+            <w function="head"
+               lemma="ἀκούω"
+               xml:id="NA28.3John.1.4.w7"
+               old_id="NT.3Joh.w45"
+               pos="finite"
+               voice="active"
+               mood="subjunctive"
+               number="singular"
+               domains="24 33 31 36 32 56"
+               subdomains="24.52 24.58 33.212 31.56 36.14 32.1 56.13"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.4.w8-w13"
+              old_id="NT.3Joh.1_wg35">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.4.w8"
+               old_id="NT.3Joh.w46"
+               pos="article"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="definer"
+               lemma="ἐμός"
+               xml:id="NA28.3John.1.4.w9"
+               old_id="NT.3Joh.w47"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.2"/>
+            <w function="head"
+               lemma="τέκνον"
+               xml:id="NA28.3John.1.4.w10"
+               old_id="NT.3Joh.w48"
+               pos="noun"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="10 11 9 36 58"
+               subdomains="10.36 10.28 11.63 9.46 36.40 58.26"/>
+            <seg function="definer"
+                 type="cl"
+                 xml:id="NA28.3John.1.4.w11-w13"
+                 old_id="NT.3Joh.1_c13">
+               <seg function="adjunct"
+                    type="wg"
+                    xml:id="NA28.3John.1.4.w11-w12"
+                    old_id="NT.3Joh.1_wg36">
+                  <w function="specifier"
+                     lemma="ἐν"
+                     xml:id="NA28.3John.1.4.w11"
+                     old_id="NT.3Joh.w49"
+                     pos="preposition"
+                     domains="83 13 84 89 90 67"
+                     subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+                  <w function="head"
+                     lemma="ἀλήθεια"
+                     xml:id="NA28.3John.1.4.w12"
+                     old_id="NT.3Joh.w51"
+                     pos="noun"
+                     gender="feminine"
+                     case="dative"
+                     number="singular"
+                     domains="72"
+                     subdomains="72.2"/>
+               </seg>
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.3John.1.4.w13"
+                    old_id="NT.3Joh.1_wg37">
+                  <w function="head"
+                     lemma="περιπατέω"
+                     xml:id="NA28.3John.1.4.w13"
+                     old_id="NT.3Joh.w52"
+                     pos="participle"
+                     voice="active"
+                     gender="neuter"
+                     case="accusative"
+                     number="plural"
+                     domains="15 41"
+                     subdomains="15.227 41.11"
+                     tense="present"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.5" unit="verse" n="5"/>
+      <seg type="cl" xml:id="NA28.3John.1.5.w1-w12" old_id="NT.3Joh.1_c14">
+         <seg function="addressee"
+              type="wg"
+              xml:id="NA28.3John.1.5.w1"
+              old_id="NT.3Joh.1_wg38">
+            <w function="head"
+               lemma="ἀγαπητός"
+               xml:id="NA28.3John.1.5.w1"
+               old_id="NT.3Joh.w53"
+               pos="adjective"
+               gender="masculine"
+               case="vocative"
+               number="singular"
+               domains="25 58"
+               subdomains="25.45 58.83"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.5.w2"
+              old_id="NT.3Joh.1_wg39">
+            <w function="head"
+               lemma="πιστός"
+               xml:id="NA28.3John.1.5.w2"
+               old_id="NT.3Joh.w54"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="31 71"
+               subdomains="31.86 31.87 71.17"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.5.w3"
+              old_id="NT.3Joh.1_wg40">
+            <w function="head"
+               lemma="ποιέω"
+               xml:id="NA28.3John.1.5.w3"
+               old_id="NT.3Joh.w55"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="90 42 13 41 37 57"
+               subdomains="90.45 42.7 42.41 42.29 13.9 41.7 37.106 57.189"
+               tense="present"
+               person="second"/>
+         </seg>
+         <seg function="complement"
+              type="cl"
+              xml:id="NA28.3John.1.5.w4-w12"
+              old_id="NT.3Joh.1_c15">
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.5.w4"
+                 old_id="NT.3Joh.1_wg41">
+               <w function="head"
+                  lemma="ὅς"
+                  xml:id="NA28.3John.1.5.w4"
+                  old_id="NT.3Joh.w56"
+                  pos="pronoun"
+                  gender="neuter"
+                  case="accusative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.27"/>
+            </seg>
+            <seg function="conjunction"
+                 type="wg"
+                 xml:id="NA28.3John.1.5.w5"
+                 old_id="NT.3Joh.1_wg42">
+               <w function="head"
+                  lemma="ἐάν"
+                  xml:id="NA28.3John.1.5.w5"
+                  old_id="NT.3Joh.w57"
+                  pos="particle"
+                  domains="89 67 71"
+                  subdomains="89.67 67.32 71.8"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.5.w6"
+                 old_id="NT.3Joh.1_wg43">
+               <w function="head"
+                  lemma="ἐργάζομαι"
+                  xml:id="NA28.3John.1.5.w6"
+                  old_id="NT.3Joh.w58"
+                  pos="finite"
+                  voice="middle-or-passive"
+                  mood="subjunctive"
+                  number="singular"
+                  domains="42 57 90 13"
+                  subdomains="42.41 57.198 90.47 13.9"
+                  tense="aorist"
+                  person="second"/>
+            </seg>
+            <seg function="adjunct" xml:id="NA28.3John.1.5.w7-w12">
+               <seg type="wg" xml:id="NA28.3John.1.5.w7-w9" old_id="NT.3Joh.1_wg44">
+                  <w function="specifier"
+                     lemma="εἰς"
+                     xml:id="NA28.3John.1.5.w7"
+                     old_id="NT.3Joh.w59"
+                     pos="preposition"
+                     domains="84 83 89 90 78 13 67"
+                     subdomains="84.16 84.22 83.47 83.13 83.9 89.57 89.48 89.76 90.23 90.59 90.30 78.51 13.62 67.117 67.160 67.119"/>
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.3John.1.5.w8"
+                     old_id="NT.3Joh.w60"
+                     pos="article"
+                     gender="masculine"
+                     case="accusative"
+                     number="plural"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="ἀδελφός"
+                     xml:id="NA28.3John.1.5.w9"
+                     old_id="NT.3Joh.w61"
+                     pos="noun"
+                     gender="masculine"
+                     case="accusative"
+                     number="plural"
+                     domains="10 11"
+                     subdomains="10.49 11.23 11.25 11.57 11.89"/>
+               </seg>
+               <seg type="wg" xml:id="NA28.3John.1.5.w10-w12" old_id="NT.3Joh.1_wg45">
+                  <w function="connector"
+                     lemma="καί"
+                     xml:id="NA28.3John.1.5.w10"
+                     old_id="NT.3Joh.w62"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                  <w function="specifier"
+                     lemma="οὗτος"
+                     xml:id="NA28.3John.1.5.w11"
+                     old_id="NT.3Joh.w63"
+                     pos="pronoun"
+                     gender="neuter"
+                     case="accusative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.29"/>
+                  <w function="head"
+                     lemma="ξένος"
+                     xml:id="NA28.3John.1.5.w12"
+                     old_id="NT.3Joh.w64"
+                     pos="adjective"
+                     gender="masculine"
+                     case="accusative"
+                     number="plural"
+                     domains="11 34"
+                     subdomains="11.73 34.60"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.6" unit="verse" n="6"/>
+      <seg type="cl"
+           xml:id="NA28.3John.1.6.w1-w7"
+           old_id="NT.3Joh.1_c16"
+           level="secondary"
+           connect="NA28.3John.1.5.w1-w12">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.6.w1"
+              old_id="NT.3Joh.1_wg46">
+            <w function="head"
+               lemma="ὅς"
+               xml:id="NA28.3John.1.6.w1"
+               old_id="NT.3Joh.w65"
+               pos="pronoun"
+               gender="masculine"
+               case="nominative"
+               number="plural"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.6.w2"
+              old_id="NT.3Joh.1_wg47">
+            <w function="head"
+               lemma="μαρτυρέω"
+               xml:id="NA28.3John.1.6.w2"
+               old_id="NT.3Joh.w66"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="plural"
+               domains="33"
+               subdomains="33.223 33.319"
+               tense="aorist"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.6.w3-w5"
+              old_id="NT.3Joh.1_wg48">
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.3John.1.6.w3"
+               old_id="NT.3Joh.w67"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.6.w4"
+               old_id="NT.3Joh.w68"
+               pos="article"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀγάπη"
+               xml:id="NA28.3John.1.6.w5"
+               old_id="NT.3Joh.w69"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="25 23"
+               subdomains="25.43 23.28"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.6.w6-w7"
+              old_id="NT.3Joh.1_wg49">
+            <w function="relator"
+               lemma="ἐνώπιον"
+               xml:id="NA28.3John.1.6.w6"
+               old_id="NT.3Joh.w70"
+               pos="preposition"
+               domains="83 90"
+               subdomains="83.33 90.20"/>
+            <w function="head"
+               lemma="ἐκκλησία"
+               xml:id="NA28.3John.1.6.w7"
+               old_id="NT.3Joh.w71"
+               pos="noun"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="11"
+               subdomains="11.32 11.33 11.78"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.6.w8-w14"
+           old_id="NT.3Joh.1_c17"
+           level="secondary"
+           connect="NA28.3John.1.6.w1-w7">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.6.w8"
+              old_id="NT.3Joh.1_wg50">
+            <w function="head"
+               lemma="οὖς"
+               xml:id="NA28.3John.1.6.w8"
+               old_id="NT.3Joh.w72"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.6.w9"
+              old_id="NT.3Joh.1_wg51">
+            <w function="head"
+               lemma="καλῶς"
+               xml:id="NA28.3John.1.6.w9"
+               old_id="NT.3Joh.w73"
+               pos="adverb"
+               domains="88 65 72 87"
+               subdomains="88.4 65.23 72.12 87.25"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.6.w10"
+              old_id="NT.3Joh.1_wg52">
+            <w function="head"
+               lemma="ποιέω"
+               xml:id="NA28.3John.1.6.w10"
+               old_id="NT.3Joh.w74"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="90 42 13 41 37 57"
+               subdomains="90.45 42.7 42.41 42.29 13.9 41.7 37.106 57.189"
+               tense="future"
+               person="second"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.3John.1.6.w11-w14"
+              old_id="NT.3Joh.1_c18">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.6.w11"
+                 old_id="NT.3Joh.1_wg53">
+               <w function="head"
+                  lemma="προπέμπω"
+                  xml:id="NA28.3John.1.6.w11"
+                  old_id="NT.3Joh.w75"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="15"
+                  subdomains="15.72 15.155"
+                  tense="aorist"/>
+            </seg>
+            <seg function="adjunct"
+                 type="wg"
+                 xml:id="NA28.3John.1.6.w12-w14"
+                 old_id="NT.3Joh.1_wg54">
+               <w function="head"
+                  lemma="ἀξίως"
+                  xml:id="NA28.3John.1.6.w12"
+                  old_id="NT.3Joh.w76"
+                  pos="adverb"
+                  domains="65 66"
+                  subdomains="65.17 66.6"/>
+               <seg function="qualifier" type="wg" xml:id="NA28.3John.1.6.w13-w14">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.3John.1.6.w13"
+                     old_id="NT.3Joh.w77"
+                     pos="article"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="θεός"
+                     xml:id="NA28.3John.1.6.w14"
+                     old_id="NT.3Joh.w78"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="12"
+                     subdomains="12.1 12.22 12.25"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.7" unit="verse" n="7"/>
+      <seg type="cl"
+           xml:id="NA28.3John.1.7.w1-w10"
+           old_id="NT.3Joh.1_c19"
+           level="secondary"
+           connect="NA28.3John.1.5.w1-w12">
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.7.w1"
+              next="NA28.3John.1.7.w3-w4"
+              old_id="NT.3Joh.1_wg56">
+            <w function="specifier"
+               lemma="ὑπέρ"
+               xml:id="NA28.3John.1.7.w1"
+               old_id="NT.3Joh.w79"
+               pos="preposition"
+               domains="90 78 87 89"
+               subdomains="90.36 90.24 78.29 87.30 89.28"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.7.w2"
+              old_id="NT.3Joh.1_wg55">
+            <w function="head"
+               lemma="γάρ"
+               xml:id="NA28.3John.1.7.w2"
+               old_id="NT.3Joh.w80"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.23 91.1"/>
+         </seg>
+         <seg xml:id="NA28.3John.1.7.w3-w4" prev="NA28.3John.1.7.w1">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.7.w3"
+               old_id="NT.3Joh.w81"
+               pos="article"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ὄνομα"
+               xml:id="NA28.3John.1.7.w4"
+               old_id="NT.3Joh.w82"
+               pos="noun"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="33 9 58"
+               subdomains="33.126 33.265 9.19 58.22"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.7.w5"
+              old_id="NT.3Joh.1_wg57">
+            <w function="head"
+               lemma="ἐξέρχομαι"
+               xml:id="NA28.3John.1.7.w5"
+               old_id="NT.3Joh.w83"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="plural"
+               domains="15 13"
+               subdomains="15.40 13.93"
+               tense="aorist"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.3John.1.7.w6-w10"
+              old_id="NT.3Joh.1_c20">
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.7.w6"
+                 old_id="NT.3Joh.1_wg58">
+               <w function="head"
+                  lemma="μηδείς"
+                  xml:id="NA28.3John.1.7.w6"
+                  old_id="NT.3Joh.w84"
+                  pos="adjective"
+                  gender="neuter"
+                  case="accusative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.23"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.7.w7"
+                 old_id="NT.3Joh.1_wg59">
+               <w function="head"
+                  lemma="λαμβάνω"
+                  xml:id="NA28.3John.1.7.w7"
+                  old_id="NT.3Joh.w85"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="plural"
+                  domains="18 57 30 31 88 90 49"
+                  subdomains="18.1 57.55 57.125 57.65 30.86 31.50 88.146 90.63 90.85 90.48 49.10"
+                  tense="present"/>
+            </seg>
+            <seg function="adjunct"
+                 type="wg"
+                 xml:id="NA28.3John.1.7.w8-w10"
+                 old_id="NT.3Joh.1_wg60">
+               <w function="specifier"
+                  lemma="ἀπό"
+                  xml:id="NA28.3John.1.7.w8"
+                  old_id="NT.3Joh.w86"
+                  pos="preposition"
+                  domains="89 90 84 63 67"
+                  subdomains="89.122 89.142 89.25 90.15 90.7 90.11 90.19 84.3 63.20 67.131"/>
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.3John.1.7.w9"
+                  old_id="NT.3Joh.w87"
+                  pos="article"
+                  gender="masculine"
+                  case="genitive"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="ἐθνικός"
+                  xml:id="NA28.3John.1.7.w10"
+                  old_id="NT.3Joh.w88"
+                  pos="adjective"
+                  gender="masculine"
+                  case="genitive"
+                  number="plural"
+                  domains="11"
+                  subdomains="11.38"/>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.8" unit="verse" n="8"/>
+      <seg type="cl" xml:id="NA28.3John.1.8.w1-w6" old_id="NT.3Joh.1_c21">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.8.w1"
+              old_id="NT.3Joh.1_wg61">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.3John.1.8.w1"
+               old_id="NT.3Joh.w89"
+               pos="pronoun"
+               case="nominative"
+               number="plural"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.8.w2"
+              old_id="NT.3Joh.1_wg62">
+            <w function="head"
+               lemma="οὖν"
+               xml:id="NA28.3John.1.8.w2"
+               old_id="NT.3Joh.w90"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.50 89.127 91.7"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.8.w3"
+              old_id="NT.3Joh.1_wg63">
+            <w function="head"
+               lemma="ὀφείλω"
+               xml:id="NA28.3John.1.8.w3"
+               old_id="NT.3Joh.w91"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="plural"
+               domains="57 71 88"
+               subdomains="57.219 71.35 71.25 88.298"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="cl"
+              xml:id="NA28.3John.1.8.w4-w6"
+              old_id="NT.3Joh.1_c22">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.8.w4"
+                 old_id="NT.3Joh.1_wg64">
+               <w function="head"
+                  lemma="ὑπολαμβάνω"
+                  xml:id="NA28.3John.1.8.w4"
+                  old_id="NT.3Joh.w92"
+                  pos="infinitive"
+                  voice="active"
+                  domains="15 33 35 31"
+                  subdomains="15.102 33.187 35.1 31.29"
+                  tense="present"/>
+            </seg>
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.8.w5-w6"
+                 old_id="NT.3Joh.1_wg65">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.3John.1.8.w5"
+                  old_id="NT.3Joh.w93"
+                  pos="article"
+                  gender="masculine"
+                  case="accusative"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="τοιοῦτος"
+                  xml:id="NA28.3John.1.8.w6"
+                  old_id="NT.3Joh.w94"
+                  pos="pronoun"
+                  gender="masculine"
+                  case="accusative"
+                  number="plural"
+                  domains="64 92"
+                  subdomains="64.2 92.31"/>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.8.w7-w11"
+           old_id="NT.3Joh.1_c23"
+           level="secondary"
+           connect="NA28.3John.1.8.w1-w6">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.8.w7"
+              old_id="NT.3Joh.1_wg66">
+            <w function="head"
+               lemma="ἵνα"
+               xml:id="NA28.3John.1.8.w7"
+               old_id="NT.3Joh.w95"
+               pos="particle"
+               domains="89 90 91"
+               subdomains="89.59 89.49 90.22 91.15"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.8.w8"
+              old_id="NT.3Joh.1_wg67">
+            <w function="head"
+               lemma="συνεργός"
+               xml:id="NA28.3John.1.8.w8"
+               old_id="NT.3Joh.w96"
+               pos="adjective"
+               gender="masculine"
+               case="nominative"
+               number="plural"
+               domains="42"
+               subdomains="42.44"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.8.w9"
+              old_id="NT.3Joh.1_wg68">
+            <w function="head"
+               lemma="γίνομαι"
+               xml:id="NA28.3John.1.8.w9"
+               old_id="NT.3Joh.w97"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="subjunctive"
+               number="plural"
+               domains="13 15 57 41 85 91"
+               subdomains="13.80 13.3 13.48 13.107 15.1 57.2 41.1 85.6 85.7 91.5"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.8.w10-w11"
+              old_id="NT.3Joh.1_wg69">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.8.w10"
+               old_id="NT.3Joh.w98"
+               pos="article"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀλήθεια"
+               xml:id="NA28.3John.1.8.w11"
+               old_id="NT.3Joh.w99"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="72"
+               subdomains="72.2"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.9" unit="verse" n="9"/>
+      <seg type="cl" xml:id="NA28.3John.1.9.w1-w4" old_id="NT.3Joh.1_c24">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.9.w1"
+              old_id="NT.3Joh.1_wg70">
+            <w function="head"
+               lemma="γράφω"
+               xml:id="NA28.3John.1.9.w1"
+               old_id="NT.3Joh.w100"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="33"
+               subdomains="33.61"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.9.w2"
+              old_id="NT.3Joh.1_wg71">
+            <w function="head"
+               lemma="τίς"
+               xml:id="NA28.3John.1.9.w2"
+               old_id="NT.3Joh.w101"
+               pos="pronoun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.14"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.9.w3-w4"
+              old_id="NT.3Joh.1_wg72">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.9.w3"
+               old_id="NT.3Joh.w102"
+               pos="article"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἐκκλησία"
+               xml:id="NA28.3John.1.9.w4"
+               old_id="NT.3Joh.w103"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="11"
+               subdomains="11.32 11.33 11.78"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.9.w5-w12" old_id="NT.3Joh.1_c25">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.9.w5"
+              old_id="NT.3Joh.1_wg73">
+            <w function="head"
+               lemma="ἀλλά"
+               xml:id="NA28.3John.1.9.w5"
+               old_id="NT.3Joh.w104"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.125 89.96 91.2 91.11"/>
+         </seg>
+         <seg function="subject" xml:id="NA28.3John.1.9.w6-w9">
+            <seg type="cl" xml:id="NA28.3John.1.9.w6-w8" old_id="NT.3Joh.1_c26">
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.3John.1.9.w6-w7"
+                    old_id="NT.3Joh.1_wg74">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.3John.1.9.w6"
+                     old_id="NT.3Joh.w105"
+                     pos="article"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="φιλοπρωτεύω"
+                     xml:id="NA28.3John.1.9.w7"
+                     old_id="NT.3Joh.w106"
+                     pos="participle"
+                     voice="active"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="25"
+                     subdomains="25.110"
+                     tense="present"/>
+               </seg>
+               <seg function="complement"
+                    type="wg"
+                    xml:id="NA28.3John.1.9.w8"
+                    old_id="NT.3Joh.1_wg75">
+                  <w function="head"
+                     lemma="αὐτός"
+                     xml:id="NA28.3John.1.9.w8"
+                     old_id="NT.3Joh.w107"
+                     pos="pronoun"
+                     gender="masculine"
+                     case="genitive"
+                     number="plural"
+                     domains="92 58"
+                     subdomains="92.11 92.37 58.31"/>
+               </seg>
+            </seg>
+            <seg type="wg" xml:id="NA28.3John.1.9.w9" old_id="NT.3Joh.1_wg76">
+               <w function="head"
+                  lemma="Διοτρέφης"
+                  xml:id="NA28.3John.1.9.w9"
+                  old_id="NT.3Joh.w108"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.99"/>
+            </seg>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.9.w10"
+              old_id="NT.3Joh.1_wg77">
+            <w function="head"
+               lemma="οὐ"
+               xml:id="NA28.3John.1.9.w10"
+               old_id="NT.3Joh.w109"
+               pos="particle"
+               domains="69"
+               subdomains="69.3 69.11"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.9.w11"
+              old_id="NT.3Joh.1_wg78">
+            <w function="head"
+               lemma="ἐπιδέχομαι"
+               xml:id="NA28.3John.1.9.w11"
+               old_id="NT.3Joh.w110"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="34 36"
+               subdomains="34.53 36.14"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.9.w12"
+              old_id="NT.3Joh.1_wg79">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.3John.1.9.w12"
+               old_id="NT.3Joh.w111"
+               pos="pronoun"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.10" unit="verse" n="10"/>
+      <seg type="cl"
+           xml:id="NA28.3John.1.10.w1-w4"
+           old_id="NT.3Joh.1_c27"
+           level="secondary"
+           connect="NA28.3John.1.10.w5-w8">
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.10.w1-w2"
+              old_id="NT.3Joh.1_wg80">
+            <w function="specifier"
+               lemma="διά"
+               xml:id="NA28.3John.1.10.w1"
+               old_id="NT.3Joh.w112"
+               pos="preposition"
+               domains="90 89 84 67"
+               subdomains="90.4 90.8 90.38 90.44 89.76 89.26 84.29 84.32 67.136 67.140"/>
+            <w function="head"
+               lemma="οὗτος"
+               xml:id="NA28.3John.1.10.w2"
+               old_id="NT.3Joh.w113"
+               pos="pronoun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.29"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.10.w3"
+              old_id="NT.3Joh.1_wg81">
+            <w function="head"
+               lemma="ἐάν"
+               xml:id="NA28.3John.1.10.w3"
+               old_id="NT.3Joh.w114"
+               pos="particle"
+               domains="89 67 71"
+               subdomains="89.67 67.32 71.8"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.10.w4"
+              old_id="NT.3Joh.1_wg82">
+            <w function="head"
+               lemma="ἔρχομαι"
+               xml:id="NA28.3John.1.10.w4"
+               old_id="NT.3Joh.w115"
+               pos="finite"
+               voice="active"
+               mood="subjunctive"
+               number="singular"
+               domains="15 13"
+               subdomains="15.7 15.81 13.50 13.117"
+               tense="aorist"
+               person="first"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.10.w5-w8" old_id="NT.3Joh.1_c28">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.10.w5"
+              old_id="NT.3Joh.1_wg83">
+            <w function="head"
+               lemma="ὑπομιμνῄσκω"
+               xml:id="NA28.3John.1.10.w5"
+               old_id="NT.3Joh.w116"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="29"
+               subdomains="29.10"
+               tense="future"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.10.w6-w8"
+              old_id="NT.3Joh.1_wg84">
+            <w function="qualifier"
+               lemma="αὐτός"
+               xml:id="NA28.3John.1.10.w6"
+               old_id="NT.3Joh.w117"
+               pos="pronoun"
+               gender="masculine"
+               case="genitive"
+               number="singular"
+               domains="92 58"
+               subdomains="92.11 92.37 58.31"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.10.w7"
+               old_id="NT.3Joh.w118"
+               pos="article"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἔργον"
+               xml:id="NA28.3John.1.10.w8"
+               old_id="NT.3Joh.w119"
+               pos="noun"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="42"
+               subdomains="42.11 42.42 42.12"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.10.w9-w14"
+           old_id="NT.3Joh.1_c29"
+           level="secondary"
+           connect="NA28.3John.1.10.w5-w8">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.10.w9"
+              old_id="NT.3Joh.1_wg85">
+            <w function="head"
+               lemma="ὅς"
+               xml:id="NA28.3John.1.10.w9"
+               old_id="NT.3Joh.w120"
+               pos="pronoun"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.10.w10"
+              old_id="NT.3Joh.1_wg86">
+            <w function="head"
+               lemma="ποιέω"
+               xml:id="NA28.3John.1.10.w10"
+               old_id="NT.3Joh.w121"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="90 42 13 41 37 57"
+               subdomains="90.45 42.7 42.41 42.29 13.9 41.7 37.106 57.189"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.3John.1.10.w11-w14"
+              old_id="NT.3Joh.1_c30">
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w11-w12"
+                 old_id="NT.3Joh.1_wg87">
+               <w function="head"
+                  lemma="λόγος"
+                  xml:id="NA28.3John.1.10.w11"
+                  old_id="NT.3Joh.w122"
+                  pos="noun"
+                  gender="masculine"
+                  case="dative"
+                  number="plural"
+                  domains="33 57"
+                  subdomains="33.98 33.99 33.260 33.51 33.100 57.228"/>
+               <w function="definer"
+                  lemma="πονηρός"
+                  xml:id="NA28.3John.1.10.w12"
+                  old_id="NT.3Joh.w123"
+                  pos="adjective"
+                  gender="masculine"
+                  case="dative"
+                  number="plural"
+                  domains="88 65 23"
+                  subdomains="88.110 88.314 65.27 23.149"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w13"
+                 old_id="NT.3Joh.1_wg88">
+               <w function="head"
+                  lemma="φλυαρέω"
+                  xml:id="NA28.3John.1.10.w13"
+                  old_id="NT.3Joh.w124"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="33"
+                  subdomains="33.374"
+                  tense="present"/>
+            </seg>
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w14"
+                 old_id="NT.3Joh.1_wg89">
+               <w function="head"
+                  lemma="ἐγώ"
+                  xml:id="NA28.3John.1.10.w14"
+                  old_id="NT.3Joh.w125"
+                  pos="pronoun"
+                  case="accusative"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.1"/>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.10.w15-w24" old_id="NT.3Joh.1_c31">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.10.w15"
+              old_id="NT.3Joh.1_wg90">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.10.w15"
+               old_id="NT.3Joh.w126"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.3John.1.10.w16-w19"
+              old_id="NT.3Joh.1_c32">
+            <seg function="adjunct"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w16"
+                 old_id="NT.3Joh.1_wg91">
+               <w function="head"
+                  lemma="μή"
+                  xml:id="NA28.3John.1.10.w16"
+                  old_id="NT.3Joh.w127"
+                  pos="adverb"
+                  domains="69 89"
+                  subdomains="69.3 69.15 89.62"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w17"
+                 old_id="NT.3Joh.1_wg92">
+               <w function="head"
+                  lemma="ἀρκέω"
+                  xml:id="NA28.3John.1.10.w17"
+                  old_id="NT.3Joh.w128"
+                  pos="participle"
+                  voice="middle-or-passive"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="59"
+                  subdomains="59.46"
+                  tense="present"/>
+            </seg>
+            <seg function="adjunct"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w18-w19"
+                 old_id="NT.3Joh.1_wg93">
+               <w function="specifier"
+                  lemma="ἐπί"
+                  xml:id="NA28.3John.1.10.w18"
+                  old_id="NT.3Joh.w129"
+                  pos="preposition"
+                  domains="83 84 90 89 37 78 67"
+                  subdomains="83.46 83.23 83.9 83.35 84.17 84.20 90.17 90.57 90.9 90.34 90.23 90.5 89.101 89.27 89.60 89.13 37.9 78.51 67.33 67.136"/>
+               <w function="head"
+                  lemma="οὗτος"
+                  xml:id="NA28.3John.1.10.w19"
+                  old_id="NT.3Joh.w130"
+                  pos="pronoun"
+                  gender="neuter"
+                  case="dative"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.29"/>
+            </seg>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.10.w20"
+              old_id="NT.3Joh.1_wg94">
+            <w function="head"
+               lemma="οὔτε"
+               xml:id="NA28.3John.1.10.w20"
+               old_id="NT.3Joh.w131"
+               pos="particle"
+               domains="69"
+               subdomains="69.9"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.10.w21"
+              old_id="NT.3Joh.1_wg95">
+            <w function="head"
+               lemma="αὐτός"
+               xml:id="NA28.3John.1.10.w21"
+               old_id="NT.3Joh.w132"
+               pos="pronoun"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="92 58"
+               subdomains="92.11 92.37 58.31"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.10.w22"
+              old_id="NT.3Joh.1_wg96">
+            <w function="head"
+               lemma="ἐπιδέχομαι"
+               xml:id="NA28.3John.1.10.w22"
+               old_id="NT.3Joh.w133"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="34 36"
+               subdomains="34.53 36.14"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.10.w23-w24"
+              old_id="NT.3Joh.1_wg97">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.10.w23"
+               old_id="NT.3Joh.w134"
+               pos="article"
+               gender="masculine"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀδελφός"
+               xml:id="NA28.3John.1.10.w24"
+               old_id="NT.3Joh.w135"
+               pos="noun"
+               gender="masculine"
+               case="accusative"
+               number="plural"
+               domains="10 11"
+               subdomains="10.49 11.23 11.25 11.57 11.89"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.10.w25-w28" old_id="NT.3Joh.1_c33">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.10.w25"
+              old_id="NT.3Joh.1_wg98">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.10.w25"
+               old_id="NT.3Joh.w136"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="complement"
+              type="cl"
+              xml:id="NA28.3John.1.10.w26-w27_2"
+              old_id="NT.3Joh.1_c34">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.10.w26-w27"
+                 old_id="NT.3Joh.1_wg99">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.3John.1.10.w26"
+                  old_id="NT.3Joh.w137"
+                  pos="article"
+                  gender="masculine"
+                  case="accusative"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="βούλομαι"
+                  xml:id="NA28.3John.1.10.w27"
+                  old_id="NT.3Joh.w138"
+                  pos="participle"
+                  voice="middle-or-passive"
+                  gender="masculine"
+                  case="accusative"
+                  number="plural"
+                  domains="25 30"
+                  subdomains="25.3 30.56"
+                  tense="present"/>
+            </seg>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.10.w28"
+              old_id="NT.3Joh.1_wg100">
+            <w function="head"
+               lemma="κωλύω"
+               xml:id="NA28.3John.1.10.w28"
+               old_id="NT.3Joh.w139"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="13"
+               subdomains="13.146"
+               tense="present"
+               person="third"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.10.w29-w33" old_id="NT.3Joh.1_c35">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.10.w29"
+              old_id="NT.3Joh.1_wg101">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.10.w29"
+               old_id="NT.3Joh.w140"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.10.w30-w32"
+              old_id="NT.3Joh.1_wg102">
+            <w function="specifier"
+               lemma="ἐκ"
+               xml:id="NA28.3John.1.10.w30"
+               old_id="NT.3Joh.w141"
+               pos="preposition"
+               domains="84 89 90 63 68 67 57"
+               subdomains="84.4 89.25 89.77 89.85 89.121 89.142 90.12 90.16 63.20 68.54 67.33 67.131 57.162"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.10.w31"
+               old_id="NT.3Joh.w142"
+               pos="article"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἐκκλησία"
+               xml:id="NA28.3John.1.10.w32"
+               old_id="NT.3Joh.w143"
+               pos="noun"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="11"
+               subdomains="11.32 11.33 11.78"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.10.w33"
+              old_id="NT.3Joh.1_wg103">
+            <w function="head"
+               lemma="ἐκβάλλω"
+               xml:id="NA28.3John.1.10.w33"
+               old_id="NT.3Joh.w144"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="15 53 13"
+               subdomains="15.220 15.44 15.68 15.174 53.102 13.68"
+               tense="present"
+               person="third"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.11" unit="verse" n="11"/>
+      <seg type="cl" xml:id="NA28.3John.1.11.w1-w5" old_id="NT.3Joh.1_c36">
+         <seg function="addressee"
+              type="wg"
+              xml:id="NA28.3John.1.11.w1"
+              old_id="NT.3Joh.1_wg104">
+            <w function="head"
+               lemma="ἀγαπητός"
+               xml:id="NA28.3John.1.11.w1"
+               old_id="NT.3Joh.w145"
+               pos="adjective"
+               gender="masculine"
+               case="vocative"
+               number="singular"
+               domains="25 58"
+               subdomains="25.45 58.83"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.11.w2"
+              old_id="NT.3Joh.1_wg105">
+            <w function="head"
+               lemma="μή"
+               xml:id="NA28.3John.1.11.w2"
+               old_id="NT.3Joh.w146"
+               pos="adverb"
+               domains="69 89"
+               subdomains="69.3 69.15 89.62"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.11.w3"
+              old_id="NT.3Joh.1_wg106">
+            <w function="head"
+               lemma="μιμέομαι"
+               xml:id="NA28.3John.1.11.w3"
+               old_id="NT.3Joh.w147"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="imperative"
+               number="singular"
+               domains="41"
+               subdomains="41.44"
+               tense="present"
+               person="second"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.11.w4-w5"
+              old_id="NT.3Joh.1_wg107">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.11.w4"
+               old_id="NT.3Joh.w148"
+               pos="article"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="κακός"
+               xml:id="NA28.3John.1.11.w5"
+               old_id="NT.3Joh.w149"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="88 65 20 72"
+               subdomains="88.106 65.26 20.18 72.22"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.11.w6-w8" old_id="NT.3Joh.1_c37">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.11.w6"
+              old_id="NT.3Joh.1_wg108">
+            <w function="head"
+               lemma="ἀλλά"
+               xml:id="NA28.3John.1.11.w6"
+               old_id="NT.3Joh.w150"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.125 89.96 91.2 91.11"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.11.w7-w8"
+              old_id="NT.3Joh.1_wg109">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.11.w7"
+               old_id="NT.3Joh.w151"
+               pos="article"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀγαθός"
+               xml:id="NA28.3John.1.11.w8"
+               old_id="NT.3Joh.w152"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="88 65 57"
+               subdomains="88.1 65.20 57.110"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.11.w9-w14" old_id="NT.3Joh.1_c38">
+         <seg function="subject"
+              type="cl"
+              xml:id="NA28.3John.1.11.w9-w10_2"
+              old_id="NT.3Joh.1_c39">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.11.w9-w10"
+                 old_id="NT.3Joh.1_wg110">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.3John.1.11.w9"
+                  old_id="NT.3Joh.w153"
+                  pos="article"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="ἀγαθοποιέω"
+                  xml:id="NA28.3John.1.11.w10"
+                  old_id="NT.3Joh.w154"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="88"
+                  subdomains="88.3"
+                  tense="present"/>
+            </seg>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.11.w11-w13"
+              old_id="NT.3Joh.1_wg111">
+            <w function="specifier"
+               lemma="ἐκ"
+               xml:id="NA28.3John.1.11.w11"
+               old_id="NT.3Joh.w155"
+               pos="preposition"
+               domains="84 89 90 63 68 67 57"
+               subdomains="84.4 89.25 89.77 89.85 89.121 89.142 90.12 90.16 63.20 68.54 67.33 67.131 57.162"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.11.w12"
+               old_id="NT.3Joh.w156"
+               pos="article"
+               gender="masculine"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="θεός"
+               xml:id="NA28.3John.1.11.w13"
+               old_id="NT.3Joh.w157"
+               pos="noun"
+               gender="masculine"
+               case="genitive"
+               number="singular"
+               domains="12"
+               subdomains="12.1 12.22 12.25"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.11.w14"
+              old_id="NT.3Joh.1_wg112">
+            <w function="head"
+               lemma="εἰμί"
+               xml:id="NA28.3John.1.11.w14"
+               old_id="NT.3Joh.w158"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="13 85 71 58"
+               subdomains="13.1 13.4 13.69 13.104 85.1 71.1 58.67 58.68"
+               tense="present"
+               person="third"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.11.w15-w20" old_id="NT.3Joh.1_c40">
+         <seg function="subject"
+              type="cl"
+              xml:id="NA28.3John.1.11.w15-w16_2"
+              old_id="NT.3Joh.1_c41">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.11.w15-w16"
+                 old_id="NT.3Joh.1_wg113">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.3John.1.11.w15"
+                  old_id="NT.3Joh.w159"
+                  pos="article"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="κακοποιέω"
+                  xml:id="NA28.3John.1.11.w16"
+                  old_id="NT.3Joh.w160"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="88 20"
+                  subdomains="88.112 20.12"
+                  tense="present"/>
+            </seg>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.11.w17"
+              old_id="NT.3Joh.1_wg114">
+            <w function="head"
+               lemma="οὐ"
+               xml:id="NA28.3John.1.11.w17"
+               old_id="NT.3Joh.w161"
+               pos="particle"
+               domains="69"
+               subdomains="69.3 69.11"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.11.w18"
+              old_id="NT.3Joh.1_wg115">
+            <w function="head"
+               lemma="ὁράω"
+               xml:id="NA28.3John.1.11.w18"
+               old_id="NT.3Joh.w162"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="24 30 31 34 90 27 13"
+               subdomains="24.1 30.45 31.11 34.50 90.79 27.5 13.134"
+               tense="perfect"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.11.w19-w20"
+              old_id="NT.3Joh.1_wg116">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.11.w19"
+               old_id="NT.3Joh.w163"
+               pos="article"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="θεός"
+               xml:id="NA28.3John.1.11.w20"
+               old_id="NT.3Joh.w164"
+               pos="noun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="12"
+               subdomains="12.1 12.22 12.25"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.12" unit="verse" n="12"/>
+      <seg type="cl" xml:id="NA28.3John.1.12.w1-w4" old_id="NT.3Joh.1_c42">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.12.w1"
+              old_id="NT.3Joh.1_wg117">
+            <w function="head"
+               lemma="Δημήτριος"
+               xml:id="NA28.3John.1.12.w1"
+               old_id="NT.3Joh.w165"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="singular"
+               domains="93"
+               subdomains="93.93"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.12.w2"
+              old_id="NT.3Joh.1_wg118">
+            <w function="head"
+               lemma="μαρτυρέω"
+               xml:id="NA28.3John.1.12.w2"
+               old_id="NT.3Joh.w166"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="33"
+               subdomains="33.223 33.319"
+               tense="perfect"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.12.w3-w4"
+              old_id="NT.3Joh.1_wg119">
+            <w function="specifier"
+               lemma="ὑπό"
+               xml:id="NA28.3John.1.12.w3"
+               old_id="NT.3Joh.w167"
+               pos="preposition"
+               domains="83 37 90 89 67"
+               subdomains="83.51 37.7 90.1 89.26 67.161"/>
+            <w function="head"
+               lemma="πᾶς"
+               xml:id="NA28.3John.1.12.w4"
+               old_id="NT.3Joh.w168"
+               pos="adjective"
+               gender="masculine"
+               case="genitive"
+               number="plural"
+               domains="59 78 63 58"
+               subdomains="59.23 59.24 78.44 63.2 58.28"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.12.w5-w9" old_id="NT.3Joh.1_c43">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.12.w5"
+              old_id="NT.3Joh.1_wg120">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.12.w5"
+               old_id="NT.3Joh.w169"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.12.w6-w9"
+              old_id="NT.3Joh.1_wg121">
+            <w function="specifier"
+               lemma="ὑπό"
+               xml:id="NA28.3John.1.12.w6"
+               old_id="NT.3Joh.w170"
+               pos="preposition"
+               domains="83 37 90 89 67"
+               subdomains="83.51 37.7 90.1 89.26 67.161"/>
+            <w function="definer"
+               lemma="αὐτός"
+               xml:id="NA28.3John.1.12.w7"
+               old_id="NT.3Joh.w171"
+               pos="pronoun"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="92 58"
+               subdomains="92.11 92.37 58.31"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.12.w8"
+               old_id="NT.3Joh.w172"
+               pos="article"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀλήθεια"
+               xml:id="NA28.3John.1.12.w9"
+               old_id="NT.3Joh.w173"
+               pos="noun"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="72"
+               subdomains="72.2"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.12.w10-w13" old_id="NT.3Joh.1_c44">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.12.w10"
+              old_id="NT.3Joh.1_wg122">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.12.w10"
+               old_id="NT.3Joh.w174"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.12.w11"
+              old_id="NT.3Joh.1_wg123">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.3John.1.12.w11"
+               old_id="NT.3Joh.w175"
+               pos="pronoun"
+               case="nominative"
+               number="plural"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.12.w12"
+              old_id="NT.3Joh.1_wg124">
+            <w function="head"
+               lemma="δέ"
+               xml:id="NA28.3John.1.12.w12"
+               old_id="NT.3Joh.w176"
+               pos="particle"
+               domains="89"
+               subdomains="89.94 89.87 89.124"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.12.w13"
+              old_id="NT.3Joh.1_wg125">
+            <w function="head"
+               lemma="μαρτυρέω"
+               xml:id="NA28.3John.1.12.w13"
+               old_id="NT.3Joh.w177"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="plural"
+               domains="33"
+               subdomains="33.223 33.319"
+               tense="present"
+               person="first"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.12.w14-w15" old_id="NT.3Joh.1_c45">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.12.w14"
+              old_id="NT.3Joh.1_wg126">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.12.w14"
+               old_id="NT.3Joh.w178"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.12.w15"
+              old_id="NT.3Joh.1_wg127">
+            <w function="head"
+               lemma="οἶδα"
+               xml:id="NA28.3John.1.12.w15"
+               old_id="NT.3Joh.w179"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="28 32 29 87"
+               subdomains="28.1 28.7 32.4 29.6 87.12"
+               tense="perfect"
+               person="second"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.3John.1.12.w16-w21"
+           old_id="NT.3Joh.1_c46"
+           level="secondary"
+           connect="NA28.3John.1.12.w14-w15">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.12.w16"
+              old_id="NT.3Joh.1_wg128">
+            <w function="head"
+               lemma="ὅτι"
+               xml:id="NA28.3John.1.12.w16"
+               old_id="NT.3Joh.w180"
+               pos="particle"
+               domains="90 89 91"
+               subdomains="90.21 89.33 91.15"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.12.w17-w19"
+              old_id="NT.3Joh.1_wg129">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.12.w17"
+               old_id="NT.3Joh.w181"
+               pos="article"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="μαρτύριον"
+               xml:id="NA28.3John.1.12.w18"
+               old_id="NT.3Joh.w182"
+               pos="noun"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="33"
+               subdomains="33.262 33.264 33.265"/>
+            <w function="qualifier"
+               lemma="ἐγώ"
+               xml:id="NA28.3John.1.12.w19"
+               old_id="NT.3Joh.w183"
+               pos="pronoun"
+               case="genitive"
+               number="plural"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.12.w20"
+              old_id="NT.3Joh.1_wg130">
+            <w function="head"
+               lemma="ἀληθής"
+               xml:id="NA28.3John.1.12.w20"
+               old_id="NT.3Joh.w184"
+               pos="adjective"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="72 70 88"
+               subdomains="72.1 70.3 88.39"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.12.w21"
+              old_id="NT.3Joh.1_wg131">
+            <w function="head"
+               lemma="εἰμί"
+               xml:id="NA28.3John.1.12.w21"
+               old_id="NT.3Joh.w185"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="13 85 71 58"
+               subdomains="13.1 13.4 13.69 13.104 85.1 71.1 58.67 58.68"
+               tense="present"
+               person="third"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.13" unit="verse" n="13"/>
+      <seg type="cl" xml:id="NA28.3John.1.13.w1-w4" old_id="NT.3Joh.1_c47">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.13.w1"
+              next="NA28.3John.1.13.w3-w4_2"
+              old_id="NT.3Joh.1_wg132">
+            <w function="head"
+               lemma="πολύς"
+               xml:id="NA28.3John.1.13.w1"
+               old_id="NT.3Joh.w186"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="59 78"
+               subdomains="59.1 59.11 78.3"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.13.w2"
+              old_id="NT.3Joh.1_wg135">
+            <w function="head"
+               lemma="ἔχω"
+               xml:id="NA28.3John.1.13.w2"
+               old_id="NT.3Joh.w187"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57 18 31 49 74 90 13 90"
+               subdomains="57.1 18.6 31.1 49.13 74.12 90.65 13.2 90.51 90.27"
+               tense="imperfect"
+               person="first"/>
+         </seg>
+         <seg xml:id="NA28.3John.1.13.w3-w4_2" prev="NA28.3John.1.13.w1">
+            <seg function="definer"
+                 type="cl"
+                 xml:id="NA28.3John.1.13.w3-w4"
+                 old_id="NT.3Joh.1_c48">
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.3John.1.13.w3"
+                    old_id="NT.3Joh.1_wg133">
+                  <w function="head"
+                     lemma="γράφω"
+                     xml:id="NA28.3John.1.13.w3"
+                     old_id="NT.3Joh.w188"
+                     pos="infinitive"
+                     voice="active"
+                     domains="33"
+                     subdomains="33.61"
+                     tense="aorist"/>
+               </seg>
+               <seg function="complement"
+                    type="wg"
+                    xml:id="NA28.3John.1.13.w4"
+                    old_id="NT.3Joh.1_wg134">
+                  <w function="head"
+                     lemma="σύ"
+                     xml:id="NA28.3John.1.13.w4"
+                     old_id="NT.3Joh.w189"
+                     pos="pronoun"
+                     case="dative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.8"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.13.w5-w13" old_id="NT.3Joh.1_c49">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.13.w5"
+              old_id="NT.3Joh.1_wg136">
+            <w function="head"
+               lemma="ἀλλά"
+               xml:id="NA28.3John.1.13.w5"
+               old_id="NT.3Joh.w190"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.125 89.96 91.2 91.11"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.13.w6"
+              old_id="NT.3Joh.1_wg137">
+            <w function="head"
+               lemma="οὐ"
+               xml:id="NA28.3John.1.13.w6"
+               old_id="NT.3Joh.w191"
+               pos="particle"
+               domains="69"
+               subdomains="69.3 69.11"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.13.w7"
+              old_id="NT.3Joh.1_wg138">
+            <w function="head"
+               lemma="θέλω"
+               xml:id="NA28.3John.1.13.w7"
+               old_id="NT.3Joh.w192"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="30 31 25"
+               subdomains="30.58 31.4 25.1 25.102"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="cl"
+              xml:id="NA28.3John.1.13.w8-w13"
+              old_id="NT.3Joh.1_c50">
+            <seg function="adjunct" xml:id="NA28.3John.1.13.w8-w11">
+               <seg type="wg" xml:id="NA28.3John.1.13.w8-w9" old_id="NT.3Joh.1_wg139">
+                  <w function="specifier"
+                     lemma="διά"
+                     xml:id="NA28.3John.1.13.w8"
+                     old_id="NT.3Joh.w193"
+                     pos="preposition"
+                     domains="90 89 84 67"
+                     subdomains="90.4 90.8 90.38 90.44 89.76 89.26 84.29 84.32 67.136 67.140"/>
+                  <w function="head"
+                     lemma="μέλας"
+                     xml:id="NA28.3John.1.13.w9"
+                     old_id="NT.3Joh.w194"
+                     pos="adjective"
+                     gender="neuter"
+                     case="genitive"
+                     number="singular"
+                     domains="79"
+                     subdomains="79.26"/>
+               </seg>
+               <seg type="wg" xml:id="NA28.3John.1.13.w10-w11" old_id="NT.3Joh.1_wg140">
+                  <w function="connector"
+                     lemma="καί"
+                     xml:id="NA28.3John.1.13.w10"
+                     old_id="NT.3Joh.w195"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                  <w function="head"
+                     lemma="κάλαμος"
+                     xml:id="NA28.3John.1.13.w11"
+                     old_id="NT.3Joh.w196"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="3 6"
+                     subdomains="3.19 3.55 6.56 6.213"/>
+               </seg>
+            </seg>
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.13.w12"
+                 old_id="NT.3Joh.1_wg141">
+               <w function="head"
+                  lemma="σύ"
+                  xml:id="NA28.3John.1.13.w12"
+                  old_id="NT.3Joh.w197"
+                  pos="pronoun"
+                  case="dative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.8"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.13.w13"
+                 old_id="NT.3Joh.1_wg142">
+               <w function="head"
+                  lemma="γράφω"
+                  xml:id="NA28.3John.1.13.w13"
+                  old_id="NT.3Joh.w198"
+                  pos="infinitive"
+                  voice="active"
+                  domains="33"
+                  subdomains="33.61"
+                  tense="present"/>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.14" unit="verse" n="14"/>
+      <seg type="cl" xml:id="NA28.3John.1.14.w1-w5" old_id="NT.3Joh.1_c51">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.14.w1"
+              old_id="NT.3Joh.1_wg143">
+            <w function="head"
+               lemma="ἐλπίζω"
+               xml:id="NA28.3John.1.14.w1"
+               old_id="NT.3Joh.w199"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="25 30"
+               subdomains="25.59 30.54"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.14.w2"
+              old_id="NT.3Joh.1_wg144">
+            <w function="head"
+               lemma="δέ"
+               xml:id="NA28.3John.1.14.w2"
+               old_id="NT.3Joh.w200"
+               pos="particle"
+               domains="89"
+               subdomains="89.94 89.87 89.124"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.14.w3"
+              old_id="NT.3Joh.1_wg145">
+            <w function="head"
+               lemma="εὐθέως"
+               xml:id="NA28.3John.1.14.w3"
+               old_id="NT.3Joh.w201"
+               pos="adverb"
+               domains="67"
+               subdomains="67.53"/>
+         </seg>
+         <seg function="complement"
+              type="cl"
+              xml:id="NA28.3John.1.14.w4-w5"
+              old_id="NT.3Joh.1_c52">
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.3John.1.14.w4"
+                 old_id="NT.3Joh.1_wg146">
+               <w function="head"
+                  lemma="σύ"
+                  xml:id="NA28.3John.1.14.w4"
+                  old_id="NT.3Joh.w202"
+                  pos="pronoun"
+                  case="accusative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.6"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.3John.1.14.w5"
+                 old_id="NT.3Joh.1_wg147">
+               <w function="head"
+                  lemma="ὁράω"
+                  xml:id="NA28.3John.1.14.w5"
+                  old_id="NT.3Joh.w203"
+                  pos="infinitive"
+                  voice="active"
+                  domains="24 30 31 34 90 27 13"
+                  subdomains="24.1 30.45 31.11 34.50 90.79 27.5 13.134"
+                  tense="aorist"/>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.14.w6-w10" old_id="NT.3Joh.1_c53">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.3John.1.14.w6"
+              old_id="NT.3Joh.1_wg148">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.3John.1.14.w6"
+               old_id="NT.3Joh.w204"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.14.w7-w9"
+              old_id="NT.3Joh.1_wg149">
+            <w function="head"
+               lemma="στόμα"
+               xml:id="NA28.3John.1.14.w7"
+               old_id="NT.3Joh.w205"
+               pos="noun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="8 33 79"
+               subdomains="8.19 33.74 33.75 33.101 79.109"/>
+            <seg function="relator" type="wg" xml:id="NA28.3John.1.14.w8-w9">
+               <w function="specifier"
+                  lemma="πρός"
+                  xml:id="NA28.3John.1.14.w8"
+                  old_id="NT.3Joh.w206"
+                  pos="preposition"
+                  domains="84 83 90 89 67 78 90 64"
+                  subdomains="84.18 84.23 83.24 83.9 90.58 90.25 89.112 89.60 89.44 89.9 89.7 67.162 67.16 78.51 90.20 90.33 64.17"/>
+               <w function="head"
+                  lemma="στόμα"
+                  xml:id="NA28.3John.1.14.w9"
+                  old_id="NT.3Joh.w207"
+                  pos="noun"
+                  gender="neuter"
+                  case="accusative"
+                  number="singular"
+                  domains="8 33 79"
+                  subdomains="8.19 33.74 33.75 33.101 79.109"/>
+            </seg>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.14.w10"
+              old_id="NT.3Joh.1_wg150">
+            <w function="head"
+               lemma="λαλέω"
+               xml:id="NA28.3John.1.14.w10"
+               old_id="NT.3Joh.w208"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="plural"
+               domains="33"
+               subdomains="33.70"
+               tense="future"
+               person="first"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.3John.1.15" unit="verse" n="15"/>
+      <seg type="cl" xml:id="NA28.3John.1.15.w1-w2" old_id="NT.3Joh.1_c54">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.15.w1"
+              old_id="NT.3Joh.1_wg151">
+            <w function="head"
+               lemma="εἰρήνη"
+               xml:id="NA28.3John.1.15.w1"
+               old_id="NT.3Joh.w209"
+               pos="noun"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="22 25"
+               subdomains="22.42 25.248"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.15.w2"
+              old_id="NT.3Joh.1_wg152">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.3John.1.15.w2"
+               old_id="NT.3Joh.w210"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.8"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.15.w3-w6" old_id="NT.3Joh.1_c55">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.15.w3"
+              old_id="NT.3Joh.1_wg153">
+            <w function="head"
+               lemma="ἀσπάζομαι"
+               xml:id="NA28.3John.1.15.w3"
+               old_id="NT.3Joh.w211"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="plural"
+               domains="33 25 34"
+               subdomains="33.20 25.130 34.55"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.15.w4"
+              old_id="NT.3Joh.1_wg154">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.3John.1.15.w4"
+               old_id="NT.3Joh.w212"
+               pos="pronoun"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.3John.1.15.w5-w6"
+              old_id="NT.3Joh.1_wg155">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.15.w5"
+               old_id="NT.3Joh.w213"
+               pos="article"
+               gender="masculine"
+               case="nominative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="φίλος"
+               xml:id="NA28.3John.1.15.w6"
+               old_id="NT.3Joh.w214"
+               pos="adjective"
+               gender="masculine"
+               case="nominative"
+               number="plural"
+               domains="34"
+               subdomains="34.11"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.3John.1.15.w7-w11" old_id="NT.3Joh.1_c56">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.3John.1.15.w7"
+              old_id="NT.3Joh.1_wg156">
+            <w function="head"
+               lemma="ἀσπάζομαι"
+               xml:id="NA28.3John.1.15.w7"
+               old_id="NT.3Joh.w215"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="imperative"
+               number="singular"
+               domains="33 25 34"
+               subdomains="33.20 25.130 34.55"
+               tense="present"
+               person="second"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.3John.1.15.w8-w9"
+              old_id="NT.3Joh.1_wg157">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.3John.1.15.w8"
+               old_id="NT.3Joh.w216"
+               pos="article"
+               gender="masculine"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="φίλος"
+               xml:id="NA28.3John.1.15.w9"
+               old_id="NT.3Joh.w217"
+               pos="adjective"
+               gender="masculine"
+               case="accusative"
+               number="plural"
+               domains="34"
+               subdomains="34.11"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.3John.1.15.w10-w11"
+              old_id="NT.3Joh.1_wg158">
+            <w function="specifier"
+               lemma="κατά"
+               xml:id="NA28.3John.1.15.w10"
+               old_id="NT.3Joh.w218"
+               pos="preposition"
+               domains="84 83 67 90 89"
+               subdomains="84.21 84.30 84.31 83.45 83.12 83.44 67.33 67.35 90.29 90.31 89.8 89.90 89.4 89.113"/>
+            <w function="head"
+               lemma="ὄνομα"
+               xml:id="NA28.3John.1.15.w11"
+               old_id="NT.3Joh.w219"
+               pos="noun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="33 9 58"
+               subdomains="33.126 33.265 9.19 58.22"/>
+         </seg>
+      </seg>
+   </text>
+</OpenText>

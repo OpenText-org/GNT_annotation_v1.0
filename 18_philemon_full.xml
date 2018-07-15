@@ -1,0 +1,4295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenText xmlns:xs="http://www.w3.org/2001/XMLSchema"
+          xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <Header>
+      <fileDesc>
+         <titleStmt>
+            <title>The OpenText.org Syntactically Annotated Greek New Testament</title>
+            <editor>Stanley E. Porter</editor>
+            <editor>Matthew Brook O'Donnell</editor>
+            <editor>Jeffrey T. Reed</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.11</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>www.opentext.org</authority>
+            <availability>
+               <p>This annotation has been produced by OpenText.org. It should not be cited or distributed without proper attribution.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>These files contain the original v0.11 syntax annotations, but they have been converted to a new, inline XML format by Christopher D. Land and the base text has been corrected and updated to the
+                            NA28. Together, these developments have resulted in minor changes to the annotation.</note>
+            <note>Corrections are welcome either through GitHub, the project website (www.opentext.org), or a direct email to Christopher D. Land.</note>
+            <note>Because the files represent (more-or-less) the original annotation, they will not be maintained. All interim corrections or updates will be released in the OpenText 1.5 repository, until we are ready for the release of OpenText 2.0.</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>The text is that of Novum Testamentum Graece, 28th revised edition, edited by Barbara Aland et al. (Stuttgart: Deutsche Bibelgesellschaft, 2012).</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl>
+            <refState unit="chapter" delim=":"/>
+            <refState unit="verse"/>
+         </refsDecl>
+      </encodingDesc>
+   </Header>
+   <text xml:id="NA28.Phlm">
+      <milestone xml:id="NA28.Phlm.1" unit="chapter" n="1"/>
+      <milestone xml:id="NA28.Phlm.1.1" unit="verse" n="1"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.1.w1-2.w15" old_id="NT.Phlm.1_c1">
+         <seg function="subject" xml:id="NA28.Phlm.1.1.w1-w8">
+            <seg type="wg" xml:id="NA28.Phlm.1.1.w1-w4" old_id="NT.Phlm.1_wg1">
+               <w function="head"
+                  lemma="Παῦλος"
+                  xml:id="NA28.Phlm.1.1.w1"
+                  old_id="NT.Phlm.w1"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.294"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.1.w2-w4">
+                  <w function="head"
+                     lemma="δέσμιος"
+                     xml:id="NA28.Phlm.1.1.w2"
+                     old_id="NT.Phlm.w2"
+                     pos="noun"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="37"
+                     subdomains="37.117"/>
+                  <seg function="qualifier" type="wg" xml:id="NA28.Phlm.1.1.w3-w4">
+                     <w function="head"
+                        lemma="Χριστός"
+                        xml:id="NA28.Phlm.1.1.w3"
+                        old_id="NT.Phlm.w3"
+                        pos="noun"
+                        gender="masculine"
+                        case="genitive"
+                        number="singular"
+                        domains="93 53"
+                        subdomains="93.387 53.82"/>
+                     <w function="definer"
+                        lemma="Ἰησοῦς"
+                        xml:id="NA28.Phlm.1.1.w4"
+                        old_id="NT.Phlm.w4"
+                        pos="noun"
+                        gender="masculine"
+                        case="genitive"
+                        number="singular"
+                        domains="93"
+                        subdomains="93.169"/>
+                  </seg>
+               </seg>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.1.w5-w8" old_id="NT.Phlm.1_wg2">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.1.w5"
+                  old_id="NT.Phlm.w5"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="head"
+                  lemma="Τιμόθεος"
+                  xml:id="NA28.Phlm.1.1.w6"
+                  old_id="NT.Phlm.w6"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.361"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.1.w7-w8">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.1.w7"
+                     old_id="NT.Phlm.w7"
+                     pos="article"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="ἀδελφός"
+                     xml:id="NA28.Phlm.1.1.w8"
+                     old_id="NT.Phlm.w8"
+                     pos="noun"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="10 11"
+                     subdomains="10.49 11.23 11.25 11.57 11.89"/>
+               </seg>
+            </seg>
+         </seg>
+         <seg function="complement" xml:id="NA28.Phlm.1.1.w9-2.w15">
+            <seg type="wg" xml:id="NA28.Phlm.1.1.w9-w14" old_id="NT.Phlm.1_wg3">
+               <w function="head"
+                  lemma="Φιλήμων"
+                  xml:id="NA28.Phlm.1.1.w9"
+                  old_id="NT.Phlm.w9"
+                  pos="noun"
+                  gender="masculine"
+                  case="dative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.377"/>
+               <seg function="definer" xml:id="NA28.Phlm.1.1.w10-w14">
+                  <seg type="wg" xml:id="NA28.Phlm.1.1.w10-w11">
+                     <w function="specifier"
+                        lemma="ὁ"
+                        xml:id="NA28.Phlm.1.1.w10"
+                        old_id="NT.Phlm.w10"
+                        pos="article"
+                        gender="masculine"
+                        case="dative"
+                        number="singular"
+                        domains="92"
+                        subdomains="92.24"/>
+                     <w function="head"
+                        lemma="ἀγαπητός"
+                        xml:id="NA28.Phlm.1.1.w11"
+                        old_id="NT.Phlm.w11"
+                        pos="adjective"
+                        gender="masculine"
+                        case="dative"
+                        number="singular"
+                        domains="25 58"
+                        subdomains="25.45 58.83"/>
+                  </seg>
+                  <seg type="wg" xml:id="NA28.Phlm.1.1.w12-w14">
+                     <w function="connector"
+                        lemma="καί"
+                        xml:id="NA28.Phlm.1.1.w12"
+                        old_id="NT.Phlm.w12"
+                        pos="particle"
+                        domains="89 91"
+                        subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                     <w function="head"
+                        lemma="συνεργός"
+                        xml:id="NA28.Phlm.1.1.w13"
+                        old_id="NT.Phlm.w13"
+                        pos="adjective"
+                        gender="masculine"
+                        case="dative"
+                        number="singular"
+                        domains="42"
+                        subdomains="42.44"/>
+                     <w function="qualifier"
+                        lemma="ἐγώ"
+                        xml:id="NA28.Phlm.1.1.w14"
+                        old_id="NT.Phlm.w14"
+                        pos="pronoun"
+                        case="genitive"
+                        number="plural"
+                        domains="92"
+                        subdomains="92.1"/>
+                  </seg>
+               </seg>
+            </seg>
+            <milestone xml:id="NA28.Phlm.1.2" unit="verse" n="2"/>
+            <seg type="wg" xml:id="NA28.Phlm.1.2.w1-w4" old_id="NT.Phlm.1_wg4">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.2.w1"
+                  old_id="NT.Phlm.w15"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="head"
+                  lemma="Ἀπφία"
+                  xml:id="NA28.Phlm.1.2.w2"
+                  old_id="NT.Phlm.w16"
+                  pos="noun"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.34"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.2.w3-w4">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.2.w3"
+                     old_id="NT.Phlm.w17"
+                     pos="article"
+                     gender="feminine"
+                     case="dative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="ἀδελφή"
+                     xml:id="NA28.Phlm.1.2.w4"
+                     old_id="NT.Phlm.w18"
+                     pos="noun"
+                     gender="feminine"
+                     case="dative"
+                     number="singular"
+                     domains="10 11"
+                     subdomains="10.50 11.24"/>
+               </seg>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.2.w5-w9" old_id="NT.Phlm.1_wg5">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.2.w5"
+                  old_id="NT.Phlm.w19"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="head"
+                  lemma="ἄρχιππος"
+                  xml:id="NA28.Phlm.1.2.w6"
+                  old_id="NT.Phlm.w20"
+                  pos="noun"
+                  gender="masculine"
+                  case="dative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.46"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.2.w7-w9">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.2.w7"
+                     old_id="NT.Phlm.w21"
+                     pos="article"
+                     gender="masculine"
+                     case="dative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="συστρατιώτης"
+                     xml:id="NA28.Phlm.1.2.w8"
+                     old_id="NT.Phlm.w22"
+                     pos="noun"
+                     gender="masculine"
+                     case="dative"
+                     number="singular"
+                     domains="34"
+                     subdomains="34.19"/>
+                  <w function="qualifier"
+                     lemma="ἐγώ"
+                     xml:id="NA28.Phlm.1.2.w9"
+                     old_id="NT.Phlm.w23"
+                     pos="pronoun"
+                     case="genitive"
+                     number="plural"
+                     domains="92"
+                     subdomains="92.1"/>
+               </seg>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.2.w10-w15" old_id="NT.Phlm.1_wg6">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.2.w10"
+                  old_id="NT.Phlm.w24"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.2.w11"
+                  old_id="NT.Phlm.w25"
+                  pos="article"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <seg function="relator" type="wg" xml:id="NA28.Phlm.1.2.w12-w14">
+                  <w function="specifier"
+                     lemma="κατά"
+                     xml:id="NA28.Phlm.1.2.w12"
+                     old_id="NT.Phlm.w26"
+                     pos="preposition"
+                     domains="84 83 67 90 89"
+                     subdomains="84.21 84.30 84.31 83.45 83.12 83.44 67.33 67.35 90.29 90.31 89.8 89.90 89.4 89.113"/>
+                  <w function="head"
+                     lemma="οἶκος"
+                     xml:id="NA28.Phlm.1.2.w13"
+                     old_id="NT.Phlm.w27"
+                     pos="noun"
+                     gender="masculine"
+                     case="accusative"
+                     number="singular"
+                     domains="7 10 57"
+                     subdomains="7.2 10.8 10.24 57.21"/>
+                  <w function="qualifier"
+                     lemma="σύ"
+                     xml:id="NA28.Phlm.1.2.w14"
+                     old_id="NT.Phlm.w28"
+                     pos="pronoun"
+                     case="genitive"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.6"/>
+               </seg>
+               <w function="head"
+                  lemma="ἐκκλησία"
+                  xml:id="NA28.Phlm.1.2.w15"
+                  old_id="NT.Phlm.w29"
+                  pos="noun"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="11"
+                  subdomains="11.32 11.33 11.78"/>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.3" unit="verse" n="3"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.3.w1-w12" old_id="NT.Phlm.1_c2">
+         <seg function="subject"
+              xml:id="NA28.Phlm.1.3.w1_2"
+              next="NA28.Phlm.1.3.w3-w4_2">
+            <seg type="wg" xml:id="NA28.Phlm.1.3.w1" old_id="NT.Phlm.1_wg7">
+               <w function="head"
+                  lemma="χάρις"
+                  xml:id="NA28.Phlm.1.3.w1"
+                  old_id="NT.Phlm.w30"
+                  pos="noun"
+                  gender="feminine"
+                  case="nominative"
+                  number="singular"
+                  domains="88 57 33 25"
+                  subdomains="88.66 57.103 33.350 25.89"/>
+            </seg>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.3.w2"
+              old_id="NT.Phlm.1_wg8">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.3.w2"
+               old_id="NT.Phlm.w31"
+               pos="pronoun"
+               case="dative"
+               number="plural"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg xml:id="NA28.Phlm.1.3.w3-w4_2" prev="NA28.Phlm.1.3.w1_2">
+            <seg type="wg" xml:id="NA28.Phlm.1.3.w3-w4" old_id="NT.Phlm.1_wg9">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.3.w3"
+                  old_id="NT.Phlm.w32"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="head"
+                  lemma="εἰρήνη"
+                  xml:id="NA28.Phlm.1.3.w4"
+                  old_id="NT.Phlm.w33"
+                  pos="noun"
+                  gender="feminine"
+                  case="nominative"
+                  number="singular"
+                  domains="22 25"
+                  subdomains="22.42 25.248"/>
+            </seg>
+         </seg>
+         <seg function="adjunct" xml:id="NA28.Phlm.1.3.w5-w12">
+            <seg type="wg" xml:id="NA28.Phlm.1.3.w5-w8" old_id="NT.Phlm.1_wg10">
+               <w function="specifier"
+                  lemma="ἀπό"
+                  xml:id="NA28.Phlm.1.3.w5"
+                  old_id="NT.Phlm.w34"
+                  pos="preposition"
+                  domains="89 90 84 63 67"
+                  subdomains="89.122 89.142 89.25 90.15 90.7 90.11 90.19 84.3 63.20 67.131"/>
+               <w function="head"
+                  lemma="θεός"
+                  xml:id="NA28.Phlm.1.3.w6"
+                  old_id="NT.Phlm.w35"
+                  pos="noun"
+                  gender="masculine"
+                  case="genitive"
+                  number="singular"
+                  domains="12"
+                  subdomains="12.1 12.22 12.25"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.3.w7-w8">
+                  <w function="head"
+                     lemma="πατήρ"
+                     xml:id="NA28.Phlm.1.3.w7"
+                     old_id="NT.Phlm.w36"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="10 12 87 11 58 36"
+                     subdomains="10.14 10.18 10.20 12.12 87.48 11.26 58.64 36.8"/>
+                  <w function="qualifier"
+                     lemma="ἐγώ"
+                     xml:id="NA28.Phlm.1.3.w8"
+                     old_id="NT.Phlm.w37"
+                     pos="pronoun"
+                     case="genitive"
+                     number="plural"
+                     domains="92"
+                     subdomains="92.1"/>
+               </seg>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.3.w9-w12" old_id="NT.Phlm.1_wg11">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.3.w9"
+                  old_id="NT.Phlm.w38"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="head"
+                  lemma="κύριος"
+                  xml:id="NA28.Phlm.1.3.w10"
+                  old_id="NT.Phlm.w39"
+                  pos="noun"
+                  gender="masculine"
+                  case="genitive"
+                  number="singular"
+                  domains="12 57 37 87"
+                  subdomains="12.9 57.12 37.51 87.53"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.3.w11-w12">
+                  <w function="head"
+                     lemma="Ἰησοῦς"
+                     xml:id="NA28.Phlm.1.3.w11"
+                     old_id="NT.Phlm.w40"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="93"
+                     subdomains="93.169"/>
+                  <w function="definer"
+                     lemma="Χριστός"
+                     xml:id="NA28.Phlm.1.3.w12"
+                     old_id="NT.Phlm.w41"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="93 53"
+                     subdomains="93.387 53.82"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.4" unit="verse" n="4"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.4.w1-5.w18" old_id="NT.Phlm.1_c3">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.4.w1"
+              old_id="NT.Phlm.1_wg12">
+            <w function="head"
+               lemma="εὐχαριστέω"
+               xml:id="NA28.Phlm.1.4.w1"
+               old_id="NT.Phlm.w42"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="33 25"
+               subdomains="33.349 25.100"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.4.w2-w4"
+              old_id="NT.Phlm.1_wg13">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.4.w2"
+               old_id="NT.Phlm.w43"
+               pos="article"
+               gender="masculine"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="θεός"
+               xml:id="NA28.Phlm.1.4.w3"
+               old_id="NT.Phlm.w44"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="singular"
+               domains="12"
+               subdomains="12.1 12.22 12.25"/>
+            <w function="qualifier"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.4.w4"
+               old_id="NT.Phlm.w45"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.4.w5"
+              old_id="NT.Phlm.1_wg14">
+            <w function="head"
+               lemma="πάντοτε"
+               xml:id="NA28.Phlm.1.4.w5"
+               old_id="NT.Phlm.w46"
+               pos="adverb"
+               domains="67"
+               subdomains="67.88"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.Phlm.1.4.w6-w12"
+              old_id="NT.Phlm.1_c4">
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.4.w6-w7"
+                 old_id="NT.Phlm.1_wg15">
+               <w function="head"
+                  lemma="μνεία"
+                  xml:id="NA28.Phlm.1.4.w6"
+                  old_id="NT.Phlm.w47"
+                  pos="noun"
+                  gender="feminine"
+                  case="accusative"
+                  number="singular"
+                  domains="29"
+                  subdomains="29.7 29.18"/>
+               <w function="qualifier"
+                  lemma="σύ"
+                  xml:id="NA28.Phlm.1.4.w7"
+                  old_id="NT.Phlm.w48"
+                  pos="pronoun"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.6"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.4.w8"
+                 old_id="NT.Phlm.1_wg16">
+               <w function="head"
+                  lemma="ποιέω"
+                  xml:id="NA28.Phlm.1.4.w8"
+                  old_id="NT.Phlm.w49"
+                  pos="participle"
+                  voice="middle-or-passive"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="90 42 13 42 41 37 57"
+                  subdomains="90.45 42.7 13.9 42.41 42.29 41.7 37.106 57.189"
+                  tense="present"/>
+            </seg>
+            <seg function="adjunct"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.4.w9-w12"
+                 old_id="NT.Phlm.1_wg17">
+               <w function="specifier"
+                  lemma="ἐπί"
+                  xml:id="NA28.Phlm.1.4.w9"
+                  old_id="NT.Phlm.w50"
+                  pos="preposition"
+                  domains="83 84 90 89 37 78 67"
+                  subdomains="83.46 83.23 83.9 83.35 84.17 84.20 90.17 90.57 90.9 90.34 90.23 90.5 89.101 89.27 89.60 89.13 37.9 78.51 67.33 67.136"/>
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.4.w10"
+                  old_id="NT.Phlm.w51"
+                  pos="article"
+                  gender="feminine"
+                  case="genitive"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="προσευχή"
+                  xml:id="NA28.Phlm.1.4.w11"
+                  old_id="NT.Phlm.w52"
+                  pos="noun"
+                  gender="feminine"
+                  case="genitive"
+                  number="plural"
+                  domains="33"
+                  subdomains="33.178 33.179"/>
+               <w function="qualifier"
+                  lemma="ἐγώ"
+                  xml:id="NA28.Phlm.1.4.w12"
+                  old_id="NT.Phlm.w53"
+                  pos="pronoun"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.1"/>
+            </seg>
+         </seg>
+         <milestone xml:id="NA28.Phlm.1.5" unit="verse" n="5"/>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.Phlm.1.5.w1-w18"
+              old_id="NT.Phlm.1_c5">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.5.w1"
+                 old_id="NT.Phlm.1_wg18">
+               <w function="head"
+                  lemma="ἀκούω"
+                  xml:id="NA28.Phlm.1.5.w1"
+                  old_id="NT.Phlm.w54"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="24 33 31 36 32 56"
+                  subdomains="24.52 24.58 33.212 31.56 36.14 32.1 56.13"
+                  tense="present"/>
+            </seg>
+            <seg function="complement" xml:id="NA28.Phlm.1.5.w2-w18">
+               <seg type="wg" xml:id="NA28.Phlm.1.5.w2-w4" old_id="NT.Phlm.1_wg19">
+                  <w function="qualifier"
+                     lemma="σύ"
+                     xml:id="NA28.Phlm.1.5.w2"
+                     old_id="NT.Phlm.w55"
+                     pos="pronoun"
+                     case="genitive"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.6"/>
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.5.w3"
+                     old_id="NT.Phlm.w56"
+                     pos="article"
+                     gender="feminine"
+                     case="accusative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="ἀγάπη"
+                     xml:id="NA28.Phlm.1.5.w4"
+                     old_id="NT.Phlm.w57"
+                     pos="noun"
+                     gender="feminine"
+                     case="accusative"
+                     number="singular"
+                     domains="25 23"
+                     subdomains="25.43 23.28"/>
+               </seg>
+               <seg type="wg" xml:id="NA28.Phlm.1.5.w5-w18" old_id="NT.Phlm.1_wg20">
+                  <w function="connector"
+                     lemma="καί"
+                     xml:id="NA28.Phlm.1.5.w5"
+                     old_id="NT.Phlm.w58"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.5.w6"
+                     old_id="NT.Phlm.w59"
+                     pos="article"
+                     gender="feminine"
+                     case="accusative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="πίστις"
+                     xml:id="NA28.Phlm.1.5.w7"
+                     old_id="NT.Phlm.w60"
+                     pos="noun"
+                     gender="feminine"
+                     case="accusative"
+                     number="singular"
+                     domains="31 33"
+                     subdomains="31.43 31.85 31.88 31.102 31.104 33.289"/>
+                  <seg function="definer"
+                       type="cl"
+                       xml:id="NA28.Phlm.1.5.w8-w18"
+                       old_id="NT.Phlm.1_c6">
+                     <seg function="complement"
+                          type="wg"
+                          xml:id="NA28.Phlm.1.5.w8"
+                          old_id="NT.Phlm.1_wg21">
+                        <w function="head"
+                           lemma="ὅς"
+                           xml:id="NA28.Phlm.1.5.w8"
+                           old_id="NT.Phlm.w61"
+                           pos="pronoun"
+                           gender="feminine"
+                           case="accusative"
+                           number="singular"
+                           domains="92"
+                           subdomains="92.27"/>
+                     </seg>
+                     <seg function="predicator"
+                          type="wg"
+                          xml:id="NA28.Phlm.1.5.w9"
+                          old_id="NT.Phlm.1_wg22">
+                        <w function="head"
+                           lemma="ἔχω"
+                           xml:id="NA28.Phlm.1.5.w9"
+                           old_id="NT.Phlm.w62"
+                           pos="finite"
+                           voice="active"
+                           mood="indicative"
+                           number="singular"
+                           domains="57 18 31 49 74 90 13 90"
+                           subdomains="57.1 18.6 31.1 49.13 74.12 90.65 13.2 90.51 90.27"
+                           tense="present"
+                           person="second"/>
+                     </seg>
+                     <seg function="adjunct" xml:id="NA28.Phlm.1.5.w10-w18">
+                        <seg type="wg" xml:id="NA28.Phlm.1.5.w10-w13" old_id="NT.Phlm.1_wg23">
+                           <w function="specifier"
+                              lemma="πρός"
+                              xml:id="NA28.Phlm.1.5.w10"
+                              old_id="NT.Phlm.w63"
+                              pos="preposition"
+                              domains="84 83 90 89 67 78 90 64"
+                              subdomains="84.18 84.23 83.24 83.9 90.58 90.25 89.112 89.60 89.44 89.9 89.7 67.162 67.16 78.51 90.20 90.33 64.17"/>
+                           <w function="specifier"
+                              lemma="ὁ"
+                              xml:id="NA28.Phlm.1.5.w11"
+                              old_id="NT.Phlm.w64"
+                              pos="article"
+                              gender="masculine"
+                              case="accusative"
+                              number="singular"
+                              domains="92"
+                              subdomains="92.24"/>
+                           <w function="head"
+                              lemma="κύριος"
+                              xml:id="NA28.Phlm.1.5.w12"
+                              old_id="NT.Phlm.w65"
+                              pos="noun"
+                              gender="masculine"
+                              case="accusative"
+                              number="singular"
+                              domains="12 57 37 87"
+                              subdomains="12.9 57.12 37.51 87.53"/>
+                           <w function="definer"
+                              lemma="Ἰησοῦς"
+                              xml:id="NA28.Phlm.1.5.w13"
+                              old_id="NT.Phlm.w66"
+                              pos="noun"
+                              gender="masculine"
+                              case="accusative"
+                              number="singular"
+                              domains="93"
+                              subdomains="93.169"/>
+                        </seg>
+                        <seg type="wg" xml:id="NA28.Phlm.1.5.w14-w18" old_id="NT.Phlm.1_wg24">
+                           <w function="connector"
+                              lemma="καί"
+                              xml:id="NA28.Phlm.1.5.w14"
+                              old_id="NT.Phlm.w67"
+                              pos="particle"
+                              domains="89 91"
+                              subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                           <w function="specifier"
+                              lemma="εἰς"
+                              xml:id="NA28.Phlm.1.5.w15"
+                              old_id="NT.Phlm.w68"
+                              pos="preposition"
+                              domains="84 83 89 90 78 13 67"
+                              subdomains="84.16 84.22 83.47 83.13 83.9 89.57 89.48 89.76 90.23 90.59 90.30 78.51 13.62 67.117 67.160 67.119"/>
+                           <w function="definer"
+                              lemma="πᾶς"
+                              xml:id="NA28.Phlm.1.5.w16"
+                              old_id="NT.Phlm.w69"
+                              pos="adjective"
+                              gender="masculine"
+                              case="accusative"
+                              number="plural"
+                              domains="59 78 63 58"
+                              subdomains="59.23 59.24 78.44 63.2 58.28"/>
+                           <w function="specifier"
+                              lemma="ὁ"
+                              xml:id="NA28.Phlm.1.5.w17"
+                              old_id="NT.Phlm.w70"
+                              pos="article"
+                              gender="masculine"
+                              case="accusative"
+                              number="plural"
+                              domains="92"
+                              subdomains="92.24"/>
+                           <w function="head"
+                              lemma="ἅγιος"
+                              xml:id="NA28.Phlm.1.5.w18"
+                              old_id="NT.Phlm.w71"
+                              pos="adjective"
+                              gender="masculine"
+                              case="accusative"
+                              number="plural"
+                              domains="88 53"
+                              subdomains="88.24 53.46"/>
+                        </seg>
+                     </seg>
+                  </seg>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.6" unit="verse" n="6"/>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.6.w1-w17"
+           old_id="NT.Phlm.1_c7"
+           level="secondary"
+           connect="NA28.Phlm.1.4.w1-5.w18">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.6.w1"
+              old_id="NT.Phlm.1_wg25">
+            <w function="head"
+               lemma="ὅπως"
+               xml:id="NA28.Phlm.1.6.w1"
+               old_id="NT.Phlm.w72"
+               pos="particle"
+               domains="89 92"
+               subdomains="89.86 89.59 92.17"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.6.w2-w6"
+              old_id="NT.Phlm.1_wg26">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.6.w2"
+               old_id="NT.Phlm.w73"
+               pos="article"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="κοινωνία"
+               xml:id="NA28.Phlm.1.6.w3"
+               old_id="NT.Phlm.w74"
+               pos="noun"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="34 57"
+               subdomains="34.5 57.98 57.101"/>
+            <seg function="qualifier" type="wg" xml:id="NA28.Phlm.1.6.w4-w6">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.6.w4"
+                  old_id="NT.Phlm.w75"
+                  pos="article"
+                  gender="feminine"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="πίστις"
+                  xml:id="NA28.Phlm.1.6.w5"
+                  old_id="NT.Phlm.w76"
+                  pos="noun"
+                  gender="feminine"
+                  case="genitive"
+                  number="singular"
+                  domains="31 33"
+                  subdomains="31.43 31.85 31.88 31.102 31.104 33.289"/>
+               <w function="qualifier"
+                  lemma="σύ"
+                  xml:id="NA28.Phlm.1.6.w6"
+                  old_id="NT.Phlm.w77"
+                  pos="pronoun"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.6"/>
+            </seg>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.6.w7"
+              old_id="NT.Phlm.1_wg27">
+            <w function="head"
+               lemma="ἐνεργής"
+               xml:id="NA28.Phlm.1.6.w7"
+               old_id="NT.Phlm.w78"
+               pos="adjective"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="13"
+               subdomains="13.124"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.6.w8"
+              old_id="NT.Phlm.1_wg28">
+            <w function="head"
+               lemma="γίνομαι"
+               xml:id="NA28.Phlm.1.6.w8"
+               old_id="NT.Phlm.w79"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="subjunctive"
+               number="singular"
+               domains="13 15 57 41 85 91"
+               subdomains="13.80 13.3 13.48 13.107 15.1 57.2 41.1 85.6 85.7 91.5"
+               tense="aorist"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.6.w9-w17"
+              old_id="NT.Phlm.1_wg29">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.Phlm.1.6.w9"
+               old_id="NT.Phlm.w80"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="head"
+               lemma="ἐπίγνωσις"
+               xml:id="NA28.Phlm.1.6.w10"
+               old_id="NT.Phlm.w81"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="28"
+               subdomains="28.2 28.18"/>
+            <seg function="qualifier" type="wg" xml:id="NA28.Phlm.1.6.w11-w17">
+               <w function="definer"
+                  lemma="πᾶς"
+                  xml:id="NA28.Phlm.1.6.w11"
+                  old_id="NT.Phlm.w82"
+                  pos="adjective"
+                  gender="neuter"
+                  case="genitive"
+                  number="singular"
+                  domains="59 78 63 58"
+                  subdomains="59.23 59.24 78.44 63.2 58.28"/>
+               <w function="head"
+                  lemma="ἀγαθός"
+                  xml:id="NA28.Phlm.1.6.w12"
+                  old_id="NT.Phlm.w83"
+                  pos="adjective"
+                  gender="neuter"
+                  case="genitive"
+                  number="singular"
+                  domains="88 65 57"
+                  subdomains="88.1 65.20 57.110"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.6.w13-w17">
+                  <w function="head"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.6.w13"
+                     old_id="NT.Phlm.w84"
+                     pos="article"
+                     gender="neuter"
+                     case="genitive"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <seg function="relator" xml:id="NA28.Phlm.1.6.w14-w17">
+                     <seg type="wg" xml:id="NA28.Phlm.1.6.w14-w15">
+                        <w function="specifier"
+                           lemma="ἐν"
+                           xml:id="NA28.Phlm.1.6.w14"
+                           old_id="NT.Phlm.w85"
+                           pos="preposition"
+                           domains="83 13 84 89 90 67"
+                           subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+                        <w function="head"
+                           lemma="ἐγώ"
+                           xml:id="NA28.Phlm.1.6.w15"
+                           old_id="NT.Phlm.w86"
+                           pos="pronoun"
+                           case="dative"
+                           number="plural"
+                           domains="92"
+                           subdomains="92.1"/>
+                     </seg>
+                     <seg type="wg" xml:id="NA28.Phlm.1.6.w16-w17">
+                        <w function="specifier"
+                           lemma="εἰς"
+                           xml:id="NA28.Phlm.1.6.w16"
+                           old_id="NT.Phlm.w87"
+                           pos="preposition"
+                           domains="84 83 89 90 78 13 67"
+                           subdomains="84.16 84.22 83.47 83.13 83.9 89.57 89.48 89.76 90.23 90.59 90.30 78.51 13.62 67.117 67.160 67.119"/>
+                        <w function="head"
+                           lemma="Χριστός"
+                           xml:id="NA28.Phlm.1.6.w17"
+                           old_id="NT.Phlm.w88"
+                           pos="noun"
+                           gender="masculine"
+                           case="accusative"
+                           number="singular"
+                           domains="93 53"
+                           subdomains="93.387 53.82"/>
+                     </seg>
+                  </seg>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.7" unit="verse" n="7"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.7.w1-w10" old_id="NT.Phlm.1_c8">
+         <seg function="complement"
+              xml:id="NA28.Phlm.1.7.w1_2"
+              next="NA28.Phlm.1.7.w3_2">
+            <seg type="wg"
+                 xml:id="NA28.Phlm.1.7.w1"
+                 next="NA28.Phlm.1.7.w3"
+                 old_id="NT.Phlm.1_wg30">
+               <w function="head"
+                  lemma="χαρά"
+                  xml:id="NA28.Phlm.1.7.w1"
+                  old_id="NT.Phlm.w89"
+                  pos="noun"
+                  gender="feminine"
+                  case="accusative"
+                  number="singular"
+                  domains="25"
+                  subdomains="25.123 25.124"/>
+            </seg>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w2"
+              old_id="NT.Phlm.1_wg31">
+            <w function="head"
+               lemma="γάρ"
+               xml:id="NA28.Phlm.1.7.w2"
+               old_id="NT.Phlm.w90"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.23 91.1"/>
+         </seg>
+         <seg xml:id="NA28.Phlm.1.7.w3_2"
+              prev="NA28.Phlm.1.7.w1_2"
+              next="NA28.Phlm.1.7.w5-w6_2">
+            <seg type="wg"
+                 xml:id="NA28.Phlm.1.7.w3"
+                 prev="NA28.Phlm.1.7.w1"
+                 old_id="NT.Phlm.1_wg30">
+               <w function="definer"
+                  lemma="πολύς"
+                  xml:id="NA28.Phlm.1.7.w3"
+                  old_id="NT.Phlm.w91"
+                  pos="adjective"
+                  gender="feminine"
+                  case="accusative"
+                  number="singular"
+                  domains="59 78"
+                  subdomains="59.1 59.11 78.3"/>
+            </seg>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w4"
+              old_id="NT.Phlm.1_wg32">
+            <w function="head"
+               lemma="ἔχω"
+               xml:id="NA28.Phlm.1.7.w4"
+               old_id="NT.Phlm.w92"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57 18 31 49 74 90 13 90"
+               subdomains="57.1 18.6 31.1 49.13 74.12 90.65 13.2 90.51 90.27"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg xml:id="NA28.Phlm.1.7.w5-w6_2" prev="NA28.Phlm.1.7.w3_2">
+            <seg type="wg" xml:id="NA28.Phlm.1.7.w5-w6" old_id="NT.Phlm.1_wg33">
+               <w function="connector"
+                  lemma="καί"
+                  xml:id="NA28.Phlm.1.7.w5"
+                  old_id="NT.Phlm.w93"
+                  pos="particle"
+                  domains="89 91"
+                  subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               <w function="head"
+                  lemma="παράκλησις"
+                  xml:id="NA28.Phlm.1.7.w6"
+                  old_id="NT.Phlm.w94"
+                  pos="noun"
+                  gender="feminine"
+                  case="accusative"
+                  number="singular"
+                  domains="25 33"
+                  subdomains="25.150 33.168"/>
+            </seg>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w7-w10"
+              old_id="NT.Phlm.1_wg34">
+            <w function="specifier"
+               lemma="ἐπί"
+               xml:id="NA28.Phlm.1.7.w7"
+               old_id="NT.Phlm.w95"
+               pos="preposition"
+               domains="83 84 90 89 37 78 67"
+               subdomains="83.46 83.23 83.9 83.35 84.17 84.20 90.17 90.57 90.9 90.34 90.23 90.5 89.101 89.27 89.60 89.13 37.9 78.51 67.33 67.136"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.7.w8"
+               old_id="NT.Phlm.w96"
+               pos="article"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀγάπη"
+               xml:id="NA28.Phlm.1.7.w9"
+               old_id="NT.Phlm.w97"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="25 23"
+               subdomains="25.43 23.28"/>
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.7.w10"
+               old_id="NT.Phlm.w98"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.7.w11-w19"
+           old_id="NT.Phlm.1_c9"
+           level="secondary"
+           connect="NA28.Phlm.1.7.w1-w10">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w11"
+              old_id="NT.Phlm.1_wg35">
+            <w function="head"
+               lemma="ὅτι"
+               xml:id="NA28.Phlm.1.7.w11"
+               old_id="NT.Phlm.w99"
+               pos="particle"
+               domains="90 89 91"
+               subdomains="90.21 89.33 91.15"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w12-w15"
+              old_id="NT.Phlm.1_wg36">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.7.w12"
+               old_id="NT.Phlm.w100"
+               pos="article"
+               gender="neuter"
+               case="nominative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="σπλάγχνον"
+               xml:id="NA28.Phlm.1.7.w13"
+               old_id="NT.Phlm.w101"
+               pos="noun"
+               gender="neuter"
+               case="nominative"
+               number="plural"
+               domains="8 26 25 25"
+               subdomains="8.58 26.11 25.49 25.50"/>
+            <seg function="qualifier" type="wg" xml:id="NA28.Phlm.1.7.w14-w15">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.7.w14"
+                  old_id="NT.Phlm.w102"
+                  pos="article"
+                  gender="masculine"
+                  case="genitive"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="ἅγιος"
+                  xml:id="NA28.Phlm.1.7.w15"
+                  old_id="NT.Phlm.w103"
+                  pos="adjective"
+                  gender="masculine"
+                  case="genitive"
+                  number="plural"
+                  domains="88 53"
+                  subdomains="88.24 53.46"/>
+            </seg>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w16"
+              old_id="NT.Phlm.1_wg37">
+            <w function="head"
+               lemma="ἀναπαύω"
+               xml:id="NA28.Phlm.1.7.w16"
+               old_id="NT.Phlm.w104"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="23"
+               subdomains="23.84"
+               tense="perfect"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w17-w18"
+              old_id="NT.Phlm.1_wg38">
+            <w function="specifier"
+               lemma="διά"
+               xml:id="NA28.Phlm.1.7.w17"
+               old_id="NT.Phlm.w105"
+               pos="preposition"
+               domains="90 89 84 67"
+               subdomains="90.4 90.8 90.38 90.44 89.76 89.26 84.29 84.32 67.136 67.140"/>
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.7.w18"
+               old_id="NT.Phlm.w106"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="addressee"
+              type="wg"
+              xml:id="NA28.Phlm.1.7.w19"
+              old_id="NT.Phlm.1_wg39">
+            <w function="head"
+               lemma="ἀδελφός"
+               xml:id="NA28.Phlm.1.7.w19"
+               old_id="NT.Phlm.w107"
+               pos="noun"
+               gender="masculine"
+               case="vocative"
+               number="singular"
+               domains="10 11"
+               subdomains="10.49 11.23 11.25 11.57 11.89"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.8" unit="verse" n="8"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.8.w1-9.w5" old_id="NT.Phlm.1_c10">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.8.w1"
+              old_id="NT.Phlm.1_wg40">
+            <w function="head"
+               lemma="διό"
+               xml:id="NA28.Phlm.1.8.w1"
+               old_id="NT.Phlm.w108"
+               pos="particle"
+               domains="89"
+               subdomains="89.47"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.Phlm.1.8.w2-w10"
+              old_id="NT.Phlm.1_c11">
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.8.w2-w5"
+                 next="NA28.Phlm.1.8.w7-w10_2"
+                 old_id="NT.Phlm.1_wg41">
+               <w function="definer"
+                  lemma="πολύς"
+                  xml:id="NA28.Phlm.1.8.w2"
+                  old_id="NT.Phlm.w109"
+                  pos="adjective"
+                  gender="feminine"
+                  case="accusative"
+                  number="singular"
+                  domains="59 78"
+                  subdomains="59.1 59.11 78.3"/>
+               <seg function="relator" type="wg" xml:id="NA28.Phlm.1.8.w3-w4">
+                  <w function="specifier"
+                     lemma="ἐν"
+                     xml:id="NA28.Phlm.1.8.w3"
+                     old_id="NT.Phlm.w110"
+                     pos="preposition"
+                     domains="83 13 84 89 90 67"
+                     subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+                  <w function="head"
+                     lemma="Χριστός"
+                     xml:id="NA28.Phlm.1.8.w4"
+                     old_id="NT.Phlm.w111"
+                     pos="noun"
+                     gender="masculine"
+                     case="dative"
+                     number="singular"
+                     domains="93 53"
+                     subdomains="93.387 53.82"/>
+               </seg>
+               <w function="head"
+                  lemma="παρρησία"
+                  xml:id="NA28.Phlm.1.8.w5"
+                  old_id="NT.Phlm.w112"
+                  pos="noun"
+                  gender="feminine"
+                  case="accusative"
+                  number="singular"
+                  domains="25"
+                  subdomains="25.158"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.8.w6"
+                 old_id="NT.Phlm.1_wg45">
+               <w function="head"
+                  lemma="ἔχω"
+                  xml:id="NA28.Phlm.1.8.w6"
+                  old_id="NT.Phlm.w113"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="57 18 31 49 74 90 13 90"
+                  subdomains="57.1 18.6 31.1 49.13 74.12 90.65 13.2 90.51 90.27"
+                  tense="present"/>
+            </seg>
+            <seg xml:id="NA28.Phlm.1.8.w7-w10_2" prev="NA28.Phlm.1.8.w2-w5">
+               <seg function="definer"
+                    type="cl"
+                    xml:id="NA28.Phlm.1.8.w7-w10"
+                    old_id="NT.Phlm.1_c12">
+                  <seg function="predicator"
+                       type="wg"
+                       xml:id="NA28.Phlm.1.8.w7"
+                       old_id="NT.Phlm.1_wg42">
+                     <w function="head"
+                        lemma="ἐπιτάσσω"
+                        xml:id="NA28.Phlm.1.8.w7"
+                        old_id="NT.Phlm.w114"
+                        pos="infinitive"
+                        voice="active"
+                        domains="33"
+                        subdomains="33.325"
+                        tense="present"/>
+                  </seg>
+                  <seg function="complement"
+                       type="wg"
+                       xml:id="NA28.Phlm.1.8.w8"
+                       old_id="NT.Phlm.1_wg43">
+                     <w function="head"
+                        lemma="σύ"
+                        xml:id="NA28.Phlm.1.8.w8"
+                        old_id="NT.Phlm.w115"
+                        pos="pronoun"
+                        case="dative"
+                        number="singular"
+                        domains="92"
+                        subdomains="92.8"/>
+                  </seg>
+                  <seg function="complement"
+                       type="wg"
+                       xml:id="NA28.Phlm.1.8.w9-w10"
+                       old_id="NT.Phlm.1_wg44">
+                     <w function="specifier"
+                        lemma="ὁ"
+                        xml:id="NA28.Phlm.1.8.w9"
+                        old_id="NT.Phlm.w116"
+                        pos="article"
+                        gender="neuter"
+                        case="accusative"
+                        number="singular"
+                        domains="92"
+                        subdomains="92.24"/>
+                     <w function="head"
+                        lemma="ἀνήκει"
+                        xml:id="NA28.Phlm.1.8.w10"
+                        old_id="NT.Phlm.w117"
+                        pos="participle"
+                        voice="active"
+                        gender="neuter"
+                        case="accusative"
+                        number="singular"
+                        domains="88"
+                        subdomains="88.x"
+                        tense="present"/>
+                  </seg>
+               </seg>
+            </seg>
+         </seg>
+         <milestone xml:id="NA28.Phlm.1.9" unit="verse" n="9"/>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.9.w1-w3"
+              old_id="NT.Phlm.1_wg46">
+            <w function="specifier"
+               lemma="διά"
+               xml:id="NA28.Phlm.1.9.w1"
+               old_id="NT.Phlm.w118"
+               pos="preposition"
+               domains="90 89 84 67"
+               subdomains="90.4 90.8 90.38 90.44 89.76 89.26 84.29 84.32 67.136 67.140"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.9.w2"
+               old_id="NT.Phlm.w119"
+               pos="article"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀγάπη"
+               xml:id="NA28.Phlm.1.9.w3"
+               old_id="NT.Phlm.w120"
+               pos="noun"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               domains="25 23"
+               subdomains="25.43 23.28"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.9.w4"
+              old_id="NT.Phlm.1_wg47">
+            <w function="head"
+               lemma="μᾶλλον"
+               xml:id="NA28.Phlm.1.9.w4"
+               old_id="NT.Phlm.w121"
+               pos="adverb"
+               domains="78 89"
+               subdomains="78.28 89.126"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.9.w5"
+              old_id="NT.Phlm.1_wg48">
+            <w function="head"
+               lemma="παρακαλέω"
+               xml:id="NA28.Phlm.1.9.w5"
+               old_id="NT.Phlm.w122"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="33 25"
+               subdomains="33.168 33.315 33.310 25.150"
+               tense="present"
+               person="first"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.9.w6-w16"
+           old_id="NT.Phlm.1_c13"
+           level="secondary"
+           connect="NA28.Phlm.1.8.w1-9.w5">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.9.w6"
+              old_id="NT.Phlm.1_wg49">
+            <w function="head"
+               lemma="τοιοῦτος"
+               xml:id="NA28.Phlm.1.9.w6"
+               old_id="NT.Phlm.w123"
+               pos="pronoun"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="64 92"
+               subdomains="64.2 92.31"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.9.w7"
+              old_id="NT.Phlm.1_wg50">
+            <w function="head"
+               lemma="εἰμί"
+               xml:id="NA28.Phlm.1.9.w7"
+               old_id="NT.Phlm.w124"
+               pos="participle"
+               voice="active"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="13 85 71 58"
+               subdomains="13.1 13.4 13.69 13.104 85.1 71.1 58.67 58.68"
+               tense="present"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.9.w8-w16"
+              old_id="NT.Phlm.1_wg51">
+            <w function="specifier"
+               lemma="ὡς"
+               xml:id="NA28.Phlm.1.9.w8"
+               old_id="NT.Phlm.w125"
+               pos="particle"
+               domains="64 90 89 67 78"
+               subdomains="64.12 90.21 89.86 89.37 89.61 89.52 67.45 67.139 78.42 78.13"/>
+            <w function="head"
+               lemma="Παῦλος"
+               xml:id="NA28.Phlm.1.9.w9"
+               old_id="NT.Phlm.w126"
+               pos="noun"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="93"
+               subdomains="93.294"/>
+            <w function="definer"
+               lemma="πρεσβύτης"
+               xml:id="NA28.Phlm.1.9.w10"
+               old_id="NT.Phlm.w127"
+               pos="noun"
+               gender="masculine"
+               case="nominative"
+               number="singular"
+               domains="9"
+               subdomains="9.31"/>
+            <w function="qualifier"
+               lemma="νυνί"
+               xml:id="NA28.Phlm.1.9.w11"
+               old_id="NT.Phlm.w128"
+               pos="adverb"
+               domains="67"
+               subdomains="67.38 67.39"/>
+            <seg function="definer" type="wg" xml:id="NA28.Phlm.1.9.w12-w16">
+               <seg function="connector" xml:id="NA28.Phlm.1.9.w12-w13">
+                  <w lemma="δέ"
+                     xml:id="NA28.Phlm.1.9.w12"
+                     old_id="NT.Phlm.w129"
+                     pos="particle"
+                     domains="89"
+                     subdomains="89.94 89.87 89.124"/>
+                  <w lemma="καί"
+                     xml:id="NA28.Phlm.1.9.w13"
+                     old_id="NT.Phlm.w130"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               </seg>
+               <w function="head"
+                  lemma="δέσμιος"
+                  xml:id="NA28.Phlm.1.9.w14"
+                  old_id="NT.Phlm.w131"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="37"
+                  subdomains="37.117"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.9.w15-w16">
+                  <w function="head"
+                     lemma="Χριστός"
+                     xml:id="NA28.Phlm.1.9.w15"
+                     old_id="NT.Phlm.w132"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="93 53"
+                     subdomains="93.387 53.82"/>
+                  <w function="definer"
+                     lemma="Ἰησοῦς"
+                     xml:id="NA28.Phlm.1.9.w16"
+                     old_id="NT.Phlm.w133"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="93"
+                     subdomains="93.169"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.10" unit="verse" n="10"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.10.w1-w6" old_id="NT.Phlm.1_c14">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w1"
+              old_id="NT.Phlm.1_wg52">
+            <w function="head"
+               lemma="παρακαλέω"
+               xml:id="NA28.Phlm.1.10.w1"
+               old_id="NT.Phlm.w134"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="33 25"
+               subdomains="33.168 33.315 33.310 25.150"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w2"
+              old_id="NT.Phlm.1_wg53">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.10.w2"
+               old_id="NT.Phlm.w135"
+               pos="pronoun"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w3-w6"
+              old_id="NT.Phlm.1_wg54">
+            <w function="specifier"
+               lemma="περί"
+               xml:id="NA28.Phlm.1.10.w3"
+               old_id="NT.Phlm.w136"
+               pos="preposition"
+               domains="83 90 67 89"
+               subdomains="83.18 90.24 90.39 67.35 89.36 89.110 89.6"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.10.w4"
+               old_id="NT.Phlm.w137"
+               pos="article"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="definer"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.10.w5"
+               old_id="NT.Phlm.w138"
+               pos="adjective"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.2"/>
+            <w function="head"
+               lemma="τέκνον"
+               xml:id="NA28.Phlm.1.10.w6"
+               old_id="NT.Phlm.w139"
+               pos="noun"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="10 11 9 36 58"
+               subdomains="10.36 10.28 11.63 9.46 36.40 58.26"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.10.w7-11.w11"
+           old_id="NT.Phlm.1_c15"
+           level="secondary"
+           connect="NA28.Phlm.1.10.w1-w6">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w7"
+              old_id="NT.Phlm.1_wg55">
+            <w function="head"
+               lemma="ὅς"
+               xml:id="NA28.Phlm.1.10.w7"
+               old_id="NT.Phlm.w140"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w8"
+              old_id="NT.Phlm.1_wg56">
+            <w function="head"
+               lemma="γεννάω"
+               xml:id="NA28.Phlm.1.10.w8"
+               old_id="NT.Phlm.w141"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="23 13"
+               subdomains="23.58 23.52 13.56 13.129"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w9-w11"
+              old_id="NT.Phlm.1_wg57">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.Phlm.1.10.w9"
+               old_id="NT.Phlm.w142"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.10.w10"
+               old_id="NT.Phlm.w143"
+               pos="article"
+               gender="masculine"
+               case="dative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="δεσμός"
+               xml:id="NA28.Phlm.1.10.w11"
+               old_id="NT.Phlm.w144"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="plural"
+               domains="6 37 23"
+               subdomains="6.14 37.115 23.156"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.10.w12-11.w11"
+              old_id="NT.Phlm.1_wg58">
+            <w function="head"
+               lemma="Ὀνήσιμος"
+               xml:id="NA28.Phlm.1.10.w12"
+               old_id="NT.Phlm.w145"
+               pos="noun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="93"
+               subdomains="93.288"/>
+            <milestone xml:id="NA28.Phlm.1.11" unit="verse" n="11"/>
+            <seg function="definer" xml:id="NA28.Phlm.1.11.w1-w11">
+               <seg type="wg" xml:id="NA28.Phlm.1.11.w1-w4">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.11.w1"
+                     old_id="NT.Phlm.w146"
+                     pos="article"
+                     gender="masculine"
+                     case="accusative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <seg function="qualifier" xml:id="NA28.Phlm.1.11.w2-w3">
+                     <w lemma="ποτέ"
+                        xml:id="NA28.Phlm.1.11.w2"
+                        old_id="NT.Phlm.w147"
+                        pos="adverb"
+                        domains="67"
+                        subdomains="67.30"/>
+                     <w lemma="σύ"
+                        xml:id="NA28.Phlm.1.11.w3"
+                        old_id="NT.Phlm.w148"
+                        pos="pronoun"
+                        case="dative"
+                        number="singular"
+                        domains="92"
+                        subdomains="92.8"/>
+                  </seg>
+                  <w function="head"
+                     lemma="ἄχρηστος"
+                     xml:id="NA28.Phlm.1.11.w4"
+                     old_id="NT.Phlm.w149"
+                     pos="adjective"
+                     gender="masculine"
+                     case="accusative"
+                     number="singular"
+                     domains="65"
+                     subdomains="65.33"/>
+               </seg>
+               <seg type="wg" xml:id="NA28.Phlm.1.11.w5-w11">
+                  <seg function="qualifier"
+                       xml:id="NA28.Phlm.1.11.w5"
+                       next="NA28.Phlm.1.11.w7-w10">
+                     <w lemma="νυνί"
+                        xml:id="NA28.Phlm.1.11.w5"
+                        old_id="NT.Phlm.w150"
+                        pos="adverb"
+                        domains="67"
+                        subdomains="67.38 67.39"/>
+                  </seg>
+                  <w function="connector"
+                     lemma="δέ"
+                     xml:id="NA28.Phlm.1.11.w6"
+                     old_id="NT.Phlm.w151"
+                     pos="particle"
+                     domains="89"
+                     subdomains="89.94 89.87 89.124"/>
+                  <seg xml:id="NA28.Phlm.1.11.w7-w10" prev="NA28.Phlm.1.11.w5">
+                     <seg type="wg" xml:id="NA28.Phlm.1.11.w7-w8">
+                        <w function="connector"
+                           lemma="καί"
+                           xml:id="NA28.Phlm.1.11.w7"
+                           old_id="NT.Phlm.w152"
+                           pos="particle"
+                           domains="89 91"
+                           subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                        <w function="head"
+                           lemma="σύ"
+                           xml:id="NA28.Phlm.1.11.w8"
+                           old_id="NT.Phlm.w153"
+                           pos="pronoun"
+                           case="dative"
+                           number="singular"
+                           domains="92"
+                           subdomains="92.6"/>
+                     </seg>
+                     <seg type="wg" xml:id="NA28.Phlm.1.11.w9-w10">
+                        <w function="connector"
+                           lemma="καί"
+                           xml:id="NA28.Phlm.1.11.w9"
+                           old_id="NT.Phlm.w154"
+                           pos="particle"
+                           domains="89 91"
+                           subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                        <w function="head"
+                           lemma="ἐγώ"
+                           xml:id="NA28.Phlm.1.11.w10"
+                           old_id="NT.Phlm.w155"
+                           pos="pronoun"
+                           case="dative"
+                           number="singular"
+                           domains="92"
+                           subdomains="92.1"/>
+                     </seg>
+                  </seg>
+                  <w function="head"
+                     lemma="εὔχρηστος"
+                     xml:id="NA28.Phlm.1.11.w11"
+                     old_id="NT.Phlm.w156"
+                     pos="adjective"
+                     gender="masculine"
+                     case="accusative"
+                     number="singular"
+                     domains="65"
+                     subdomains="65.31"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.12" unit="verse" n="12"/>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.12.w1-w4"
+           old_id="NT.Phlm.1_c16"
+           level="secondary2"
+           connect="NA28.Phlm.1.10.w7-11.w11">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w1"
+              old_id="NT.Phlm.1_wg59">
+            <w function="head"
+               lemma="ὅς"
+               xml:id="NA28.Phlm.1.12.w1"
+               old_id="NT.Phlm.w157"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w2"
+              old_id="NT.Phlm.1_wg60">
+            <w function="head"
+               lemma="ἀναπέμπω"
+               xml:id="NA28.Phlm.1.12.w2"
+               old_id="NT.Phlm.w158"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="15"
+               subdomains="15.70 15.71"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w3"
+              old_id="NT.Phlm.1_wg61">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.12.w3"
+               old_id="NT.Phlm.w159"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.8"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w4"
+              old_id="NT.Phlm.1_wg62">
+            <w function="head"
+               lemma="αὐτός"
+               xml:id="NA28.Phlm.1.12.w4"
+               old_id="NT.Phlm.w160"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92 58"
+               subdomains="92.11 92.37 58.31"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.12.w5-w9"
+           old_id="NT.Phlm.1_c17"
+           level="secondary2"
+           connect="NA28.Phlm.1.12.w1-w4">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w5"
+              old_id="NT.Phlm.1_wg63">
+            <w function="head"
+               lemma="οὗτος"
+               xml:id="NA28.Phlm.1.12.w5"
+               old_id="NT.Phlm.w161"
+               pos="pronoun"
+               gender="neuter"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.29"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w6"
+              old_id="NT.Phlm.1_wg64">
+            <w function="head"
+               lemma="εἰμί"
+               xml:id="NA28.Phlm.1.12.w6"
+               old_id="NT.Phlm.w162"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="13 85 71 58"
+               subdomains="13.1 13.4 13.69 13.104 85.1 71.1 58.67 58.68"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.12.w7-w9"
+              old_id="NT.Phlm.1_wg65">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.12.w7"
+               old_id="NT.Phlm.w163"
+               pos="article"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="definer"
+               lemma="ἐμός"
+               xml:id="NA28.Phlm.1.12.w8"
+               old_id="NT.Phlm.w164"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.2"/>
+            <w function="head"
+               lemma="σπλάγχνον"
+               xml:id="NA28.Phlm.1.12.w9"
+               old_id="NT.Phlm.w165"
+               pos="noun"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="8 26 25 25"
+               subdomains="8.58 26.11 25.49 25.50"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.13" unit="verse" n="13"/>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.13.w1-w6"
+           old_id="NT.Phlm.1_c18"
+           level="secondary2"
+           connect="NA28.Phlm.1.12.w1-w4">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w1"
+              old_id="NT.Phlm.1_wg66">
+            <w function="head"
+               lemma="ὅς"
+               xml:id="NA28.Phlm.1.13.w1"
+               old_id="NT.Phlm.w166"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.27"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w2"
+              old_id="NT.Phlm.1_wg67">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.13.w2"
+               old_id="NT.Phlm.w167"
+               pos="pronoun"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w3"
+              old_id="NT.Phlm.1_wg68">
+            <w function="head"
+               lemma="βούλομαι"
+               xml:id="NA28.Phlm.1.13.w3"
+               old_id="NT.Phlm.w168"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="25 30"
+               subdomains="25.3 30.56"
+               tense="imperfect"
+               person="first"/>
+         </seg>
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.Phlm.1.13.w4-w6"
+              old_id="NT.Phlm.1_c19">
+            <seg function="adjunct"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.13.w4-w5"
+                 old_id="NT.Phlm.1_wg69">
+               <w function="specifier"
+                  lemma="πρός"
+                  xml:id="NA28.Phlm.1.13.w4"
+                  old_id="NT.Phlm.w169"
+                  pos="preposition"
+                  domains="84 83 90 89 67 78 90 64"
+                  subdomains="84.18 84.23 83.24 83.9 90.58 90.25 89.112 89.60 89.44 89.9 89.7 67.162 67.16 78.51 90.20 90.33 64.17"/>
+               <w function="head"
+                  lemma="ἐμαυτοῦ"
+                  xml:id="NA28.Phlm.1.13.w5"
+                  old_id="NT.Phlm.w170"
+                  pos="pronoun"
+                  gender="masculine"
+                  case="accusative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.3"/>
+            </seg>
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.13.w6"
+                 old_id="NT.Phlm.1_wg70">
+               <w function="head"
+                  lemma="κατέχω"
+                  xml:id="NA28.Phlm.1.13.w6"
+                  old_id="NT.Phlm.w171"
+                  pos="infinitive"
+                  voice="active"
+                  domains="13 31 57 37 85"
+                  subdomains="13.150 31.48 57.1 37.17 85.9"
+                  tense="present"/>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.13.w7-w16"
+           old_id="NT.Phlm.1_c20"
+           level="secondary2"
+           connect="NA28.Phlm.1.13.w1-w6">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w7"
+              old_id="NT.Phlm.1_wg71">
+            <w function="head"
+               lemma="ἵνα"
+               xml:id="NA28.Phlm.1.13.w7"
+               old_id="NT.Phlm.w172"
+               pos="particle"
+               domains="89 90 91"
+               subdomains="89.59 89.49 90.22 91.15"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w8-w9"
+              old_id="NT.Phlm.1_wg72">
+            <w function="specifier"
+               lemma="ὑπέρ"
+               xml:id="NA28.Phlm.1.13.w8"
+               old_id="NT.Phlm.w173"
+               pos="preposition"
+               domains="90 78 87 89"
+               subdomains="90.36 90.24 78.29 87.30 89.28"/>
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.13.w9"
+               old_id="NT.Phlm.w174"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w10"
+              old_id="NT.Phlm.1_wg73">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.13.w10"
+               old_id="NT.Phlm.w175"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w11"
+              old_id="NT.Phlm.1_wg74">
+            <w function="head"
+               lemma="διακονέω"
+               xml:id="NA28.Phlm.1.13.w11"
+               old_id="NT.Phlm.w176"
+               pos="finite"
+               voice="active"
+               mood="subjunctive"
+               number="singular"
+               domains="35 46 53"
+               subdomains="35.19 35.37 46.13 53.66"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.13.w12-w16"
+              old_id="NT.Phlm.1_wg75">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.Phlm.1.13.w12"
+               old_id="NT.Phlm.w177"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.13.w13"
+               old_id="NT.Phlm.w178"
+               pos="article"
+               gender="masculine"
+               case="dative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="δεσμός"
+               xml:id="NA28.Phlm.1.13.w14"
+               old_id="NT.Phlm.w179"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="plural"
+               domains="6 37 23"
+               subdomains="6.14 37.115 23.156"/>
+            <seg function="qualifier" type="wg" xml:id="NA28.Phlm.1.13.w15-w16">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.13.w15"
+                  old_id="NT.Phlm.w180"
+                  pos="article"
+                  gender="neuter"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="εὐαγγέλιον"
+                  xml:id="NA28.Phlm.1.13.w16"
+                  old_id="NT.Phlm.w181"
+                  pos="noun"
+                  gender="neuter"
+                  case="genitive"
+                  number="singular"
+                  domains="33"
+                  subdomains="33.217"/>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.14" unit="verse" n="14"/>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.14.w1-w8"
+           old_id="NT.Phlm.1_c21"
+           level="secondary"
+           connect="NA28.Phlm.1.13.w1-w6">
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w1"
+              next="NA28.Phlm.1.14.w3-w5"
+              old_id="NT.Phlm.1_wg77">
+            <w function="specifier"
+               lemma="χωρίς"
+               xml:id="NA28.Phlm.1.14.w1"
+               old_id="NT.Phlm.w182"
+               pos="preposition"
+               domains="89 63"
+               subdomains="89.120 63.31"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w2"
+              old_id="NT.Phlm.1_wg76">
+            <w function="head"
+               lemma="δέ"
+               xml:id="NA28.Phlm.1.14.w2"
+               old_id="NT.Phlm.w183"
+               pos="particle"
+               domains="89"
+               subdomains="89.94 89.87 89.124"/>
+         </seg>
+         <seg xml:id="NA28.Phlm.1.14.w3-w5" prev="NA28.Phlm.1.14.w1">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.14.w3"
+               old_id="NT.Phlm.w184"
+               pos="article"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="definer"
+               lemma="σός"
+               xml:id="NA28.Phlm.1.14.w4"
+               old_id="NT.Phlm.w185"
+               pos="adjective"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.8"/>
+            <w function="head"
+               lemma="γνώμη"
+               xml:id="NA28.Phlm.1.14.w5"
+               old_id="NT.Phlm.w186"
+               pos="noun"
+               gender="feminine"
+               case="genitive"
+               number="singular"
+               domains="30 31"
+               subdomains="30.67 31.3 31.14"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w6"
+              old_id="NT.Phlm.1_wg78">
+            <w function="head"
+               lemma="οὐδείς"
+               xml:id="NA28.Phlm.1.14.w6"
+               old_id="NT.Phlm.w187"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.23"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w7"
+              old_id="NT.Phlm.1_wg79">
+            <w function="head"
+               lemma="θέλω"
+               xml:id="NA28.Phlm.1.14.w7"
+               old_id="NT.Phlm.w188"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="30 31 25"
+               subdomains="30.58 31.4 25.1 25.102"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="cl"
+              xml:id="NA28.Phlm.1.14.w8_2"
+              old_id="NT.Phlm.1_c22">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.14.w8"
+                 old_id="NT.Phlm.1_wg80">
+               <w function="head"
+                  lemma="ποιέω"
+                  xml:id="NA28.Phlm.1.14.w8"
+                  old_id="NT.Phlm.w189"
+                  pos="infinitive"
+                  voice="active"
+                  domains="90 42 13 42 41 37 57"
+                  subdomains="90.45 42.7 13.9 42.41 42.29 41.7 37.106 57.189"
+                  tense="aorist"/>
+            </seg>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.14.w9-w17"
+           old_id="NT.Phlm.1_c23"
+           level="secondary2"
+           connect="NA28.Phlm.1.14.w1-w8">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w9"
+              old_id="NT.Phlm.1_wg81">
+            <w function="head"
+               lemma="ἵνα"
+               xml:id="NA28.Phlm.1.14.w9"
+               old_id="NT.Phlm.w190"
+               pos="particle"
+               domains="89 90 91"
+               subdomains="89.59 89.49 90.22 91.15"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w10"
+              old_id="NT.Phlm.1_wg82">
+            <w function="head"
+               lemma="μή"
+               xml:id="NA28.Phlm.1.14.w10"
+               old_id="NT.Phlm.w191"
+               pos="particle"
+               domains="69 89"
+               subdomains="69.3 69.15 89.62"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w11-w13"
+              old_id="NT.Phlm.1_wg83">
+            <seg function="specifier" xml:id="NA28.Phlm.1.14.w11-w12">
+               <w lemma="ὡς"
+                  xml:id="NA28.Phlm.1.14.w11"
+                  old_id="NT.Phlm.w192"
+                  pos="particle"
+                  domains="64 90 89 67 78"
+                  subdomains="64.12 90.21 89.86 89.37 89.61 89.52 67.45 67.139 78.42 78.13"/>
+               <w lemma="κατά"
+                  xml:id="NA28.Phlm.1.14.w12"
+                  old_id="NT.Phlm.w193"
+                  pos="preposition"
+                  domains="84 83 67 90 89"
+                  subdomains="84.21 84.30 84.31 83.45 83.12 83.44 67.33 67.35 90.29 90.31 89.8 89.90 89.4 89.113"/>
+            </seg>
+            <w function="head"
+               lemma="ἀνάγκη"
+               xml:id="NA28.Phlm.1.14.w13"
+               old_id="NT.Phlm.w194"
+               pos="noun"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               domains="22 71"
+               subdomains="22.1 71.30 71.38"/>
+         </seg>
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w14-w16"
+              old_id="NT.Phlm.1_wg84">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.14.w14"
+               old_id="NT.Phlm.w195"
+               pos="article"
+               gender="neuter"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="ἀγαθός"
+               xml:id="NA28.Phlm.1.14.w15"
+               old_id="NT.Phlm.w196"
+               pos="adjective"
+               gender="neuter"
+               case="nominative"
+               number="singular"
+               domains="88 65 57"
+               subdomains="88.1 65.20 57.110"/>
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.14.w16"
+               old_id="NT.Phlm.w197"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w17"
+              old_id="NT.Phlm.1_wg85">
+            <w function="head"
+               lemma="εἰμί"
+               xml:id="NA28.Phlm.1.14.w17"
+               old_id="NT.Phlm.w198"
+               pos="finite"
+               voice="active"
+               mood="subjunctive"
+               number="singular"
+               domains="13 85 71 58"
+               subdomains="13.1 13.4 13.69 13.104 85.1 71.1 58.67 58.68"
+               tense="present"
+               person="third"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.14.w18-w20"
+           old_id="NT.Phlm.1_c24"
+           level="secondary"
+           connect="NA28.Phlm.1.14.w9-w17">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w18"
+              old_id="NT.Phlm.1_wg86">
+            <w function="head"
+               lemma="ἀλλά"
+               xml:id="NA28.Phlm.1.14.w18"
+               old_id="NT.Phlm.w199"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.125 89.96 91.2 91.11"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.14.w19-w20"
+              old_id="NT.Phlm.1_wg87">
+            <w function="specifier"
+               lemma="κατά"
+               xml:id="NA28.Phlm.1.14.w19"
+               old_id="NT.Phlm.w200"
+               pos="preposition"
+               domains="84 83 67 90 89"
+               subdomains="84.21 84.30 84.31 83.45 83.12 83.44 67.33 67.35 90.29 90.31 89.8 89.90 89.4 89.113"/>
+            <w function="head"
+               lemma="ἑκούσιος"
+               xml:id="NA28.Phlm.1.14.w20"
+               old_id="NT.Phlm.w201"
+               pos="adjective"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="25"
+               subdomains="25.65"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.15" unit="verse" n="15"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.15.w1-w7" old_id="NT.Phlm.1_c25">
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w1"
+              old_id="NT.Phlm.1_wg88">
+            <w function="head"
+               lemma="τάχα"
+               xml:id="NA28.Phlm.1.15.w1"
+               old_id="NT.Phlm.w202"
+               pos="adverb"
+               domains="71"
+               subdomains="71.12"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w2"
+              old_id="NT.Phlm.1_wg89">
+            <w function="head"
+               lemma="γάρ"
+               xml:id="NA28.Phlm.1.15.w2"
+               old_id="NT.Phlm.w203"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.23 91.1"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w3-w4"
+              old_id="NT.Phlm.1_wg90">
+            <w function="specifier"
+               lemma="διά"
+               xml:id="NA28.Phlm.1.15.w3"
+               old_id="NT.Phlm.w204"
+               pos="preposition"
+               domains="90 89 84 67"
+               subdomains="90.4 90.8 90.38 90.44 89.76 89.26 84.29 84.32 67.136 67.140"/>
+            <w function="head"
+               lemma="οὗτος"
+               xml:id="NA28.Phlm.1.15.w4"
+               old_id="NT.Phlm.w205"
+               pos="pronoun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.29"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w5"
+              old_id="NT.Phlm.1_wg91">
+            <w function="head"
+               lemma="χωρίζω"
+               xml:id="NA28.Phlm.1.15.w5"
+               old_id="NT.Phlm.w206"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="63 34 15 85"
+               subdomains="63.29 34.78 15.49 85.41"
+               tense="aorist"
+               person="third"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w6-w7"
+              old_id="NT.Phlm.1_wg92">
+            <w function="specifier"
+               lemma="πρός"
+               xml:id="NA28.Phlm.1.15.w6"
+               old_id="NT.Phlm.w207"
+               pos="preposition"
+               domains="84 83 90 89 67 78 90 64"
+               subdomains="84.18 84.23 83.24 83.9 90.58 90.25 89.112 89.60 89.44 89.9 89.7 67.162 67.16 78.51 90.20 90.33 64.17"/>
+            <w function="head"
+               lemma="ὥρα"
+               xml:id="NA28.Phlm.1.15.w7"
+               old_id="NT.Phlm.w208"
+               pos="noun"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               domains="67"
+               subdomains="67.1 67.148 67.199"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.15.w8-16.w20"
+           old_id="NT.Phlm.1_c26"
+           level="secondary"
+           connect="NA28.Phlm.1.15.w1-w7">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w8"
+              old_id="NT.Phlm.1_wg93">
+            <w function="head"
+               lemma="ἵνα"
+               xml:id="NA28.Phlm.1.15.w8"
+               old_id="NT.Phlm.w209"
+               pos="particle"
+               domains="89 90 91"
+               subdomains="89.59 89.49 90.22 91.15"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w9"
+              old_id="NT.Phlm.1_wg94">
+            <w function="head"
+               lemma="αἰώνιος"
+               xml:id="NA28.Phlm.1.15.w9"
+               old_id="NT.Phlm.w210"
+               pos="adjective"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="67"
+               subdomains="67.96"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w10"
+              old_id="NT.Phlm.1_wg95">
+            <w function="head"
+               lemma="αὐτός"
+               xml:id="NA28.Phlm.1.15.w10"
+               old_id="NT.Phlm.w211"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92 58"
+               subdomains="92.11 92.37 58.31"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.15.w11"
+              old_id="NT.Phlm.1_wg96">
+            <w function="head"
+               lemma="ἀπέχω"
+               xml:id="NA28.Phlm.1.15.w11"
+               old_id="NT.Phlm.w212"
+               pos="finite"
+               voice="active"
+               mood="subjunctive"
+               number="singular"
+               domains="57 85 59 90"
+               subdomains="57.137 85.16 59.47 90.67"
+               tense="aorist"
+               person="second"/>
+         </seg>
+         <milestone xml:id="NA28.Phlm.1.16" unit="verse" n="16"/>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.16.w1-w20"
+              old_id="NT.Phlm.1_wg97">
+            <seg function="relator"
+                 xml:id="NA28.Phlm.1.16.w1-w6"
+                 next="NA28.Phlm.1.16.w15-w20">
+               <seg type="wg" xml:id="NA28.Phlm.1.16.w1-w3">
+                  <w function="qualifier"
+                     lemma="οὐκέτι"
+                     xml:id="NA28.Phlm.1.16.w1"
+                     old_id="NT.Phlm.w213"
+                     pos="adverb"
+                     domains="67"
+                     subdomains="67.130"/>
+                  <w function="specifier"
+                     lemma="ὡς"
+                     xml:id="NA28.Phlm.1.16.w2"
+                     old_id="NT.Phlm.w214"
+                     pos="particle"
+                     domains="64 90 89 67 78"
+                     subdomains="64.12 90.21 89.86 89.37 89.61 89.52 67.45 67.139 78.42 78.13"/>
+                  <w function="head"
+                     lemma="δοῦλος"
+                     xml:id="NA28.Phlm.1.16.w3"
+                     old_id="NT.Phlm.w215"
+                     pos="noun"
+                     gender="masculine"
+                     case="accusative"
+                     number="singular"
+                     domains="87 37"
+                     subdomains="87.75 37.3"/>
+               </seg>
+               <seg type="wg" xml:id="NA28.Phlm.1.16.w4-w6">
+                  <w function="connector"
+                     lemma="ἀλλά"
+                     xml:id="NA28.Phlm.1.16.w4"
+                     old_id="NT.Phlm.w216"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.125 89.96 91.2 91.11"/>
+                  <w function="specifier"
+                     lemma="ὑπέρ"
+                     xml:id="NA28.Phlm.1.16.w5"
+                     old_id="NT.Phlm.w217"
+                     pos="preposition"
+                     domains="90 78 87 89"
+                     subdomains="90.36 90.24 78.29 87.30 89.28"/>
+                  <w function="head"
+                     lemma="δοῦλος"
+                     xml:id="NA28.Phlm.1.16.w6"
+                     old_id="NT.Phlm.w218"
+                     pos="noun"
+                     gender="masculine"
+                     case="accusative"
+                     number="singular"
+                     domains="87 37"
+                     subdomains="87.75 37.3"/>
+               </seg>
+            </seg>
+            <w function="head"
+               lemma="ἀδελφός"
+               xml:id="NA28.Phlm.1.16.w7"
+               old_id="NT.Phlm.w219"
+               pos="noun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="10 11"
+               subdomains="10.49 11.23 11.25 11.57 11.89"/>
+            <seg function="definer" type="wg" xml:id="NA28.Phlm.1.16.w8-w14">
+               <w function="head"
+                  lemma="ἀγαπητός"
+                  xml:id="NA28.Phlm.1.16.w8"
+                  old_id="NT.Phlm.w220"
+                  pos="adjective"
+                  gender="masculine"
+                  case="accusative"
+                  number="singular"
+                  domains="25 58"
+                  subdomains="25.45 58.83"/>
+               <seg function="qualifier" xml:id="NA28.Phlm.1.16.w9-w14">
+                  <seg type="wg" xml:id="NA28.Phlm.1.16.w9-w10">
+                     <w function="head"
+                        lemma="μάλιστα"
+                        xml:id="NA28.Phlm.1.16.w9"
+                        old_id="NT.Phlm.w221"
+                        pos="adverb"
+                        domains="78"
+                        subdomains="78.7"/>
+                     <w function="qualifier"
+                        lemma="ἐγώ"
+                        xml:id="NA28.Phlm.1.16.w10"
+                        old_id="NT.Phlm.w222"
+                        pos="pronoun"
+                        case="dative"
+                        number="singular"
+                        domains="92"
+                        subdomains="92.1"/>
+                  </seg>
+                  <seg type="wg" xml:id="NA28.Phlm.1.16.w11-w14">
+                     <seg function="qualifier"
+                          xml:id="NA28.Phlm.1.16.w11"
+                          next="NA28.Phlm.1.16.w14">
+                        <w lemma="πόσος"
+                           xml:id="NA28.Phlm.1.16.w11"
+                           old_id="NT.Phlm.w223"
+                           pos="pronoun"
+                           gender="neuter"
+                           case="dative"
+                           number="singular"
+                           domains="59 78"
+                           subdomains="59.5 59.17 78.13"/>
+                     </seg>
+                     <w function="connector"
+                        lemma="δέ"
+                        xml:id="NA28.Phlm.1.16.w12"
+                        old_id="NT.Phlm.w224"
+                        pos="particle"
+                        domains="89"
+                        subdomains="89.94 89.87 89.124"/>
+                     <w function="head"
+                        lemma="μᾶλλον"
+                        xml:id="NA28.Phlm.1.16.w13"
+                        old_id="NT.Phlm.w225"
+                        pos="adverb"
+                        domains="78 89"
+                        subdomains="78.28 89.126"/>
+                     <seg xml:id="NA28.Phlm.1.16.w14" prev="NA28.Phlm.1.16.w11">
+                        <w lemma="σύ"
+                           xml:id="NA28.Phlm.1.16.w14"
+                           old_id="NT.Phlm.w226"
+                           pos="pronoun"
+                           case="dative"
+                           number="singular"
+                           domains="92"
+                           subdomains="92.6"/>
+                     </seg>
+                  </seg>
+               </seg>
+            </seg>
+            <seg xml:id="NA28.Phlm.1.16.w15-w20" prev="NA28.Phlm.1.16.w1-w6">
+               <seg type="wg" xml:id="NA28.Phlm.1.16.w15-w17">
+                  <w function="connector"
+                     lemma="καί"
+                     xml:id="NA28.Phlm.1.16.w15"
+                     old_id="NT.Phlm.w227"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                  <w function="specifier"
+                     lemma="ἐν"
+                     xml:id="NA28.Phlm.1.16.w16"
+                     old_id="NT.Phlm.w228"
+                     pos="preposition"
+                     domains="83 13 84 89 90 67"
+                     subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+                  <w function="head"
+                     lemma="σάρξ"
+                     xml:id="NA28.Phlm.1.16.w17"
+                     old_id="NT.Phlm.w229"
+                     pos="noun"
+                     gender="feminine"
+                     case="dative"
+                     number="singular"
+                     domains="8 9 10 26 58 23"
+                     subdomains="8.63 8.4 9.11 9.12 10.1 26.7 58.10 23.90"/>
+               </seg>
+               <seg type="wg" xml:id="NA28.Phlm.1.16.w18-w20">
+                  <w function="connector"
+                     lemma="καί"
+                     xml:id="NA28.Phlm.1.16.w18"
+                     old_id="NT.Phlm.w230"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+                  <w function="specifier"
+                     lemma="ἐς"
+                     xml:id="NA28.Phlm.1.16.w19"
+                     old_id="NT.Phlm.w231"
+                     pos="preposition"
+                     domains="83 13 84 89 90 67"
+                     subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+                  <w function="head"
+                     lemma="κύριος"
+                     xml:id="NA28.Phlm.1.16.w20"
+                     old_id="NT.Phlm.w232"
+                     pos="noun"
+                     gender="masculine"
+                     case="dative"
+                     number="singular"
+                     domains="12 57 37 87"
+                     subdomains="12.9 57.12 37.51 87.53"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.17" unit="verse" n="17"/>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.17.w1-w5"
+           old_id="NT.Phlm.1_c27"
+           level="secondary"
+           connect="NA28.Phlm.1.17.w6-w9">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w1"
+              old_id="NT.Phlm.1_wg98">
+            <w function="head"
+               lemma="εἰ"
+               xml:id="NA28.Phlm.1.17.w1"
+               old_id="NT.Phlm.w233"
+               pos="particle"
+               domains="89 90"
+               subdomains="89.65 89.30 90.26"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w2"
+              old_id="NT.Phlm.1_wg99">
+            <w function="head"
+               lemma="οὖν"
+               xml:id="NA28.Phlm.1.17.w2"
+               old_id="NT.Phlm.w234"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.50 89.127 91.7"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w3"
+              old_id="NT.Phlm.1_wg100">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.17.w3"
+               old_id="NT.Phlm.w235"
+               pos="pronoun"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w4"
+              old_id="NT.Phlm.1_wg101">
+            <w function="head"
+               lemma="ἔχω"
+               xml:id="NA28.Phlm.1.17.w4"
+               old_id="NT.Phlm.w236"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57 18 31 49 74 90 13 90"
+               subdomains="57.1 18.6 31.1 49.13 74.12 90.65 13.2 90.51 90.27"
+               tense="present"
+               person="second"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w5"
+              old_id="NT.Phlm.1_wg102">
+            <w function="head"
+               lemma="κοινωνός"
+               xml:id="NA28.Phlm.1.17.w5"
+               old_id="NT.Phlm.w237"
+               pos="noun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="34"
+               subdomains="34.6"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.Phlm.1.17.w6-w9" old_id="NT.Phlm.1_c28">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w6"
+              old_id="NT.Phlm.1_wg103">
+            <w function="head"
+               lemma="προσλαμβάνομαι"
+               xml:id="NA28.Phlm.1.17.w6"
+               old_id="NT.Phlm.w238"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="imperative"
+               number="singular"
+               domains="18 15 34"
+               subdomains="18.2 15.167 15.180 15.127 34.53"
+               tense="aorist"
+               person="second"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w7"
+              old_id="NT.Phlm.1_wg104">
+            <w function="head"
+               lemma="αὐτός"
+               xml:id="NA28.Phlm.1.17.w7"
+               old_id="NT.Phlm.w239"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92 58"
+               subdomains="92.11 92.37 58.31"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.17.w8-w9"
+              old_id="NT.Phlm.1_wg105">
+            <w function="specifier"
+               lemma="ὡς"
+               xml:id="NA28.Phlm.1.17.w8"
+               old_id="NT.Phlm.w240"
+               pos="particle"
+               domains="64 90 89 67 78"
+               subdomains="64.12 90.21 89.86 89.37 89.61 89.52 67.45 67.139 78.42 78.13"/>
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.17.w9"
+               old_id="NT.Phlm.w241"
+               pos="pronoun"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.18" unit="verse" n="18"/>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.18.w1-w5"
+           old_id="NT.Phlm.1_c29"
+           level="secondary"
+           connect="NA28.Phlm.1.18.w8-w10">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w1"
+              old_id="NT.Phlm.1_wg106">
+            <w function="head"
+               lemma="εἰ"
+               xml:id="NA28.Phlm.1.18.w1"
+               old_id="NT.Phlm.w242"
+               pos="particle"
+               domains="89 90"
+               subdomains="89.65 89.30 90.26"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w2"
+              old_id="NT.Phlm.1_wg107">
+            <w function="head"
+               lemma="δέ"
+               xml:id="NA28.Phlm.1.18.w2"
+               old_id="NT.Phlm.w243"
+               pos="particle"
+               domains="89"
+               subdomains="89.94 89.87 89.124"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w3"
+              old_id="NT.Phlm.1_wg108">
+            <w function="head"
+               lemma="τίς"
+               xml:id="NA28.Phlm.1.18.w3"
+               old_id="NT.Phlm.w244"
+               pos="pronoun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.14"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w4"
+              old_id="NT.Phlm.1_wg109">
+            <w function="head"
+               lemma="ἀδικέω"
+               xml:id="NA28.Phlm.1.18.w4"
+               old_id="NT.Phlm.w245"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="20 88"
+               subdomains="20.25 88.22 88.128"
+               tense="aorist"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w5"
+              old_id="NT.Phlm.1_wg110">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.18.w5"
+               old_id="NT.Phlm.w246"
+               pos="pronoun"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.18.w6-w7"
+           old_id="NT.Phlm.1_c30"
+           level="secondary"
+           connect="NA28.Phlm.1.18.w1-w5">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w6"
+              old_id="NT.Phlm.1_wg111">
+            <w function="head"
+               lemma="ἤ"
+               xml:id="NA28.Phlm.1.18.w6"
+               old_id="NT.Phlm.w247"
+               pos="particle"
+               domains="89 64"
+               subdomains="89.139 89.140 64.18"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w7"
+              old_id="NT.Phlm.1_wg112">
+            <w function="head"
+               lemma="ὀφείλω"
+               xml:id="NA28.Phlm.1.18.w7"
+               old_id="NT.Phlm.w248"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57 71 88"
+               subdomains="57.219 71.35 71.25 88.298"
+               tense="present"
+               person="third"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.Phlm.1.18.w8-w10" old_id="NT.Phlm.1_c31">
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w8"
+              old_id="NT.Phlm.1_wg113">
+            <w function="head"
+               lemma="οὗτος"
+               xml:id="NA28.Phlm.1.18.w8"
+               old_id="NT.Phlm.w249"
+               pos="pronoun"
+               gender="neuter"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.29"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w9"
+              old_id="NT.Phlm.1_wg114">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.18.w9"
+               old_id="NT.Phlm.w250"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.18.w10"
+              old_id="NT.Phlm.1_wg115">
+            <w function="head"
+               lemma="ἐλλογέω"
+               xml:id="NA28.Phlm.1.18.w10"
+               old_id="NT.Phlm.w251"
+               pos="finite"
+               voice="active"
+               mood="imperative"
+               number="singular"
+               domains="33 57"
+               subdomains="33.45 57.226"
+               tense="present"
+               person="second"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.19" unit="verse" n="19"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.19.w1-w6" old_id="NT.Phlm.1_c32">
+         <seg function="subject" xml:id="NA28.Phlm.1.19.w1-w2">
+            <seg type="wg" xml:id="NA28.Phlm.1.19.w1" old_id="NT.Phlm.1_wg116">
+               <w function="head"
+                  lemma="ἐγώ"
+                  xml:id="NA28.Phlm.1.19.w1"
+                  old_id="NT.Phlm.w252"
+                  pos="pronoun"
+                  case="nominative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.1"/>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.19.w2" old_id="NT.Phlm.1_wg117">
+               <w function="head"
+                  lemma="Παῦλος"
+                  xml:id="NA28.Phlm.1.19.w2"
+                  old_id="NT.Phlm.w253"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.294"/>
+            </seg>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w3"
+              old_id="NT.Phlm.1_wg118">
+            <w function="head"
+               lemma="γράφω"
+               xml:id="NA28.Phlm.1.19.w3"
+               old_id="NT.Phlm.w254"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="33"
+               subdomains="33.61"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w4-w6"
+              old_id="NT.Phlm.1_wg119">
+            <seg function="specifier" xml:id="NA28.Phlm.1.19.w4-w5">
+               <w lemma="ὁ"
+                  xml:id="NA28.Phlm.1.19.w4"
+                  old_id="NT.Phlm.w255"
+                  pos="article"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w lemma="ἐμός"
+                  xml:id="NA28.Phlm.1.19.w5"
+                  old_id="NT.Phlm.w256"
+                  pos="adjective"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.2"/>
+            </seg>
+            <w function="head"
+               lemma="χείρ"
+               xml:id="NA28.Phlm.1.19.w6"
+               old_id="NT.Phlm.w257"
+               pos="noun"
+               gender="feminine"
+               case="dative"
+               number="singular"
+               domains="8 9 76 37"
+               subdomains="8.30 9.17 76.3 37.14"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.Phlm.1.19.w7-w8" old_id="NT.Phlm.1_c33">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w7"
+              old_id="NT.Phlm.1_wg120">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.19.w7"
+               old_id="NT.Phlm.w258"
+               pos="pronoun"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w8"
+              old_id="NT.Phlm.1_wg121">
+            <w function="head"
+               lemma="ἀποτίνω"
+               xml:id="NA28.Phlm.1.19.w8"
+               old_id="NT.Phlm.w259"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57"
+               subdomains="57.156"
+               tense="future"
+               person="first"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.19.w9-w12"
+           old_id="NT.Phlm.1_c34"
+           level="secondary"
+           connect="NA28.Phlm.1.19.w7-w8">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w9"
+              old_id="NT.Phlm.1_wg122">
+            <w function="head"
+               lemma="ἵνα"
+               xml:id="NA28.Phlm.1.19.w9"
+               old_id="NT.Phlm.w260"
+               pos="particle"
+               domains="89 90 91"
+               subdomains="89.59 89.49 90.22 91.15"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w10"
+              old_id="NT.Phlm.1_wg123">
+            <w function="head"
+               lemma="μή"
+               xml:id="NA28.Phlm.1.19.w10"
+               old_id="NT.Phlm.w261"
+               pos="adverb"
+               domains="69 89"
+               subdomains="69.3 69.15 89.62"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w11"
+              old_id="NT.Phlm.1_wg124">
+            <w function="head"
+               lemma="λέγω"
+               xml:id="NA28.Phlm.1.19.w11"
+               old_id="NT.Phlm.w262"
+               pos="finite"
+               voice="active"
+               mood="subjunctive"
+               number="singular"
+               domains="33"
+               subdomains="33.69 33.129 33.131 33.138 33.140"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w12"
+              old_id="NT.Phlm.1_wg125">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.19.w12"
+               old_id="NT.Phlm.w263"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.8"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.19.w13-w17"
+           old_id="NT.Phlm.1_c35"
+           projected="yes"
+           level="secondary"
+           connect="NA28.Phlm.1.19.w9-w12">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w13"
+              old_id="NT.Phlm.1_wg126">
+            <w function="head"
+               lemma="ὅτι"
+               xml:id="NA28.Phlm.1.19.w13"
+               old_id="NT.Phlm.w264"
+               pos="particle"
+               domains="90 89 91"
+               subdomains="90.21 89.33 91.15"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w14"
+              old_id="NT.Phlm.1_wg127">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.Phlm.1.19.w14"
+               old_id="NT.Phlm.w265"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w15"
+              old_id="NT.Phlm.1_wg128">
+            <w function="head"
+               lemma="σεαυτοῦ"
+               xml:id="NA28.Phlm.1.19.w15"
+               old_id="NT.Phlm.w266"
+               pos="pronoun"
+               gender="masculine"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.10"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w16"
+              old_id="NT.Phlm.1_wg129">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.19.w16"
+               old_id="NT.Phlm.w267"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.19.w17"
+              old_id="NT.Phlm.1_wg130">
+            <w function="head"
+               lemma="προσοφείλω"
+               xml:id="NA28.Phlm.1.19.w17"
+               old_id="NT.Phlm.w268"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="57"
+               subdomains="57.220"
+               tense="present"
+               person="second"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.20" unit="verse" n="20"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.20.w1-w2" old_id="NT.Phlm.1_c36">
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w1"
+              old_id="NT.Phlm.1_wg131">
+            <w function="head"
+               lemma="ναί"
+               xml:id="NA28.Phlm.1.20.w1"
+               old_id="NT.Phlm.w269"
+               pos="particle"
+               domains="69 69"
+               subdomains="69.1 69.1"/>
+         </seg>
+         <seg function="addressee"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w2"
+              old_id="NT.Phlm.1_wg132">
+            <w function="head"
+               lemma="ἀδελφός"
+               xml:id="NA28.Phlm.1.20.w2"
+               old_id="NT.Phlm.w270"
+               pos="noun"
+               gender="masculine"
+               case="vocative"
+               number="singular"
+               domains="10 11"
+               subdomains="10.49 11.23 11.25 11.57 11.89"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.Phlm.1.20.w3-w7" old_id="NT.Phlm.1_c37">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w3"
+              old_id="NT.Phlm.1_wg133">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.20.w3"
+               old_id="NT.Phlm.w271"
+               pos="pronoun"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w4"
+              old_id="NT.Phlm.1_wg134">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.20.w4"
+               old_id="NT.Phlm.w272"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w5"
+              old_id="NT.Phlm.1_wg135">
+            <w function="head"
+               lemma="ὀνίναμαι"
+               xml:id="NA28.Phlm.1.20.w5"
+               old_id="NT.Phlm.w273"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="optative"
+               number="singular"
+               domains="35"
+               subdomains="35.4"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w6-w7"
+              old_id="NT.Phlm.1_wg136">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.Phlm.1.20.w6"
+               old_id="NT.Phlm.w274"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="head"
+               lemma="κύριος"
+               xml:id="NA28.Phlm.1.20.w7"
+               old_id="NT.Phlm.w275"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="singular"
+               domains="12 57 37 87"
+               subdomains="12.9 57.12 37.51 87.53"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.Phlm.1.20.w8-w13" old_id="NT.Phlm.1_c38">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w8"
+              old_id="NT.Phlm.1_wg137">
+            <w function="head"
+               lemma="ἀναπαύω"
+               xml:id="NA28.Phlm.1.20.w8"
+               old_id="NT.Phlm.w276"
+               pos="finite"
+               voice="active"
+               mood="imperative"
+               number="singular"
+               domains="23"
+               subdomains="23.84"
+               tense="aorist"
+               person="second"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w9-w11"
+              old_id="NT.Phlm.1_wg138">
+            <w function="qualifier"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.20.w9"
+               old_id="NT.Phlm.w277"
+               pos="pronoun"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.20.w10"
+               old_id="NT.Phlm.w278"
+               pos="article"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="σπλάγχνον"
+               xml:id="NA28.Phlm.1.20.w11"
+               old_id="NT.Phlm.w279"
+               pos="noun"
+               gender="neuter"
+               case="accusative"
+               number="plural"
+               domains="8 26 25 25"
+               subdomains="8.58 26.11 25.49 25.50"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.20.w12-w13"
+              old_id="NT.Phlm.1_wg139">
+            <w function="specifier"
+               lemma="ἐν"
+               xml:id="NA28.Phlm.1.20.w12"
+               old_id="NT.Phlm.w280"
+               pos="preposition"
+               domains="83 13 84 89 90 67"
+               subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+            <w function="head"
+               lemma="Χριστός"
+               xml:id="NA28.Phlm.1.20.w13"
+               old_id="NT.Phlm.w281"
+               pos="noun"
+               gender="masculine"
+               case="dative"
+               number="singular"
+               domains="93 53"
+               subdomains="93.387 53.82"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.21" unit="verse" n="21"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.21.w1-w13" old_id="NT.Phlm.1_c39">
+         <seg function="adjunct"
+              type="cl"
+              xml:id="NA28.Phlm.1.21.w1-w4"
+              old_id="NT.Phlm.1_c40">
+            <seg function="predicator"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.21.w1"
+                 old_id="NT.Phlm.1_wg140">
+               <w function="head"
+                  lemma="πείθω"
+                  xml:id="NA28.Phlm.1.21.w1"
+                  old_id="NT.Phlm.w282"
+                  pos="participle"
+                  voice="active"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="33"
+                  subdomains="33.11"
+                  tense="perfect"/>
+            </seg>
+            <seg function="complement"
+                 type="wg"
+                 xml:id="NA28.Phlm.1.21.w2-w4"
+                 old_id="NT.Phlm.1_wg141">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.21.w2"
+                  old_id="NT.Phlm.w283"
+                  pos="article"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="ὑπακοή"
+                  xml:id="NA28.Phlm.1.21.w3"
+                  old_id="NT.Phlm.w284"
+                  pos="noun"
+                  gender="feminine"
+                  case="dative"
+                  number="singular"
+                  domains="36"
+                  subdomains="36.15"/>
+               <w function="qualifier"
+                  lemma="σύ"
+                  xml:id="NA28.Phlm.1.21.w4"
+                  old_id="NT.Phlm.w285"
+                  pos="pronoun"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.6"/>
+            </seg>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.21.w5"
+              old_id="NT.Phlm.1_wg142">
+            <w function="head"
+               lemma="γράφω"
+               xml:id="NA28.Phlm.1.21.w5"
+               old_id="NT.Phlm.w286"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="33"
+               subdomains="33.61"
+               tense="aorist"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.21.w6"
+              old_id="NT.Phlm.1_wg143">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.21.w6"
+               old_id="NT.Phlm.w287"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.8"/>
+         </seg>
+         <seg function="adjunct" xml:id="NA28.Phlm.1.21.w7-w13">
+            <seg type="cl" xml:id="NA28.Phlm.1.21.w7_2" old_id="NT.Phlm.1_c41">
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.Phlm.1.21.w7"
+                    old_id="NT.Phlm.1_wg144">
+                  <w function="head"
+                     lemma="ὁράω"
+                     xml:id="NA28.Phlm.1.21.w7"
+                     old_id="NT.Phlm.w288"
+                     pos="participle"
+                     voice="active"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="28 32 29 87"
+                     subdomains="28.1 28.7 32.4 29.6 87.12"
+                     tense="perfect"/>
+               </seg>
+            </seg>
+            <seg type="cl" xml:id="NA28.Phlm.1.21.w8-w13" old_id="NT.Phlm.1_c42">
+               <seg function="conjunction"
+                    type="wg"
+                    xml:id="NA28.Phlm.1.21.w8"
+                    old_id="NT.Phlm.1_wg145">
+                  <w function="head"
+                     lemma="ὅτι"
+                     xml:id="NA28.Phlm.1.21.w8"
+                     old_id="NT.Phlm.w289"
+                     pos="particle"
+                     domains="90 89 91"
+                     subdomains="90.21 89.33 91.15"/>
+               </seg>
+               <seg function="conjunction"
+                    type="wg"
+                    xml:id="NA28.Phlm.1.21.w9"
+                    old_id="NT.Phlm.1_wg146">
+                  <w function="head"
+                     lemma="καί"
+                     xml:id="NA28.Phlm.1.21.w9"
+                     old_id="NT.Phlm.w290"
+                     pos="particle"
+                     domains="89 91"
+                     subdomains="89.92 89.87 89.93 91.12 91.1"/>
+               </seg>
+               <seg function="adjunct"
+                    type="cl"
+                    xml:id="NA28.Phlm.1.21.w10-w12"
+                    old_id="NT.Phlm.1_c43">
+                  <seg function="adjunct"
+                       type="wg"
+                       xml:id="NA28.Phlm.1.21.w10-w11"
+                       old_id="NT.Phlm.1_wg147">
+                     <w function="specifier"
+                        lemma="ὑπέρ"
+                        xml:id="NA28.Phlm.1.21.w10"
+                        old_id="NT.Phlm.w291"
+                        pos="preposition"
+                        domains="90 78 87 89"
+                        subdomains="90.36 90.24 78.29 87.30 89.28"/>
+                     <w function="head"
+                        lemma="ὅς"
+                        xml:id="NA28.Phlm.1.21.w11"
+                        old_id="NT.Phlm.w292"
+                        pos="pronoun"
+                        gender="neuter"
+                        case="accusative"
+                        number="plural"
+                        domains="92"
+                        subdomains="92.27"/>
+                  </seg>
+                  <seg function="predicator"
+                       type="wg"
+                       xml:id="NA28.Phlm.1.21.w12"
+                       old_id="NT.Phlm.1_wg148">
+                     <w function="head"
+                        lemma="λέγω"
+                        xml:id="NA28.Phlm.1.21.w12"
+                        old_id="NT.Phlm.w293"
+                        pos="finite"
+                        voice="active"
+                        mood="indicative"
+                        number="singular"
+                        domains="33"
+                        subdomains="33.69 33.129 33.131 33.138 33.140"
+                        tense="present"
+                        person="first"/>
+                  </seg>
+               </seg>
+               <seg function="predicator"
+                    type="wg"
+                    xml:id="NA28.Phlm.1.21.w13"
+                    old_id="NT.Phlm.1_wg149">
+                  <w function="head"
+                     lemma="ποιέω"
+                     xml:id="NA28.Phlm.1.21.w13"
+                     old_id="NT.Phlm.w294"
+                     pos="finite"
+                     voice="active"
+                     mood="indicative"
+                     number="singular"
+                     domains="90 42 13 42 41 37 57"
+                     subdomains="90.45 42.7 13.9 42.41 42.29 41.7 37.106 57.189"
+                     tense="future"
+                     person="second"/>
+               </seg>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.22" unit="verse" n="22"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.22.w1-w6" old_id="NT.Phlm.1_c44">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w1"
+              old_id="NT.Phlm.1_wg150">
+            <w function="head"
+               lemma="ἅμα"
+               xml:id="NA28.Phlm.1.22.w1"
+               old_id="NT.Phlm.w295"
+               pos="adverb"
+               domains="67 89"
+               subdomains="67.34 89.114"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w2"
+              old_id="NT.Phlm.1_wg151">
+            <w function="head"
+               lemma="δέ"
+               xml:id="NA28.Phlm.1.22.w2"
+               old_id="NT.Phlm.w296"
+               pos="particle"
+               domains="89"
+               subdomains="89.94 89.87 89.124"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w3"
+              old_id="NT.Phlm.1_wg152">
+            <w function="head"
+               lemma="καί"
+               xml:id="NA28.Phlm.1.22.w3"
+               old_id="NT.Phlm.w297"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.92 89.87 89.93 91.12 91.1"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w4"
+              old_id="NT.Phlm.1_wg153">
+            <w function="head"
+               lemma="ἑτοιμάζω"
+               xml:id="NA28.Phlm.1.22.w4"
+               old_id="NT.Phlm.w298"
+               pos="finite"
+               voice="active"
+               mood="imperative"
+               number="singular"
+               domains="77"
+               subdomains="77.3"
+               tense="present"
+               person="second"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w5"
+              old_id="NT.Phlm.1_wg154">
+            <w function="head"
+               lemma="ἐγώ"
+               xml:id="NA28.Phlm.1.22.w5"
+               old_id="NT.Phlm.w299"
+               pos="pronoun"
+               case="dative"
+               number="singular"
+               domains="92"
+               subdomains="92.1"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w6"
+              old_id="NT.Phlm.1_wg155">
+            <w function="head"
+               lemma="ξενία"
+               xml:id="NA28.Phlm.1.22.w6"
+               old_id="NT.Phlm.w300"
+               pos="noun"
+               gender="feminine"
+               case="accusative"
+               number="singular"
+               domains="7 34"
+               subdomains="7.31 34.57"/>
+         </seg>
+      </seg>
+      <seg type="cl" xml:id="NA28.Phlm.1.22.w7-w8" old_id="NT.Phlm.1_c45">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w7"
+              old_id="NT.Phlm.1_wg156">
+            <w function="head"
+               lemma="ἐλπίζω"
+               xml:id="NA28.Phlm.1.22.w7"
+               old_id="NT.Phlm.w301"
+               pos="finite"
+               voice="active"
+               mood="indicative"
+               number="singular"
+               domains="25 30"
+               subdomains="25.59 30.54"
+               tense="present"
+               person="first"/>
+         </seg>
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w8"
+              old_id="NT.Phlm.1_wg157">
+            <w function="head"
+               lemma="γάρ"
+               xml:id="NA28.Phlm.1.22.w8"
+               old_id="NT.Phlm.w302"
+               pos="particle"
+               domains="89 91"
+               subdomains="89.23 91.1"/>
+         </seg>
+      </seg>
+      <seg type="cl"
+           xml:id="NA28.Phlm.1.22.w9-w15"
+           old_id="NT.Phlm.1_c46"
+           level="secondary"
+           connect="NA28.Phlm.1.22.w7-w8">
+         <seg function="conjunction"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w9"
+              old_id="NT.Phlm.1_wg158">
+            <w function="head"
+               lemma="ὅτι"
+               xml:id="NA28.Phlm.1.22.w9"
+               old_id="NT.Phlm.w303"
+               pos="particle"
+               domains="90 89 91"
+               subdomains="90.21 89.33 91.15"/>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w10-w13"
+              old_id="NT.Phlm.1_wg159">
+            <w function="specifier"
+               lemma="διά"
+               xml:id="NA28.Phlm.1.22.w10"
+               old_id="NT.Phlm.w304"
+               pos="preposition"
+               domains="90 89 84 67"
+               subdomains="90.4 90.8 90.38 90.44 89.76 89.26 84.29 84.32 67.136 67.140"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.22.w11"
+               old_id="NT.Phlm.w305"
+               pos="article"
+               gender="feminine"
+               case="genitive"
+               number="plural"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="προσευχή"
+               xml:id="NA28.Phlm.1.22.w12"
+               old_id="NT.Phlm.w306"
+               pos="noun"
+               gender="feminine"
+               case="genitive"
+               number="plural"
+               domains="33"
+               subdomains="33.178 33.179"/>
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.22.w13"
+               old_id="NT.Phlm.w307"
+               pos="pronoun"
+               case="genitive"
+               number="plural"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w14"
+              old_id="NT.Phlm.1_wg160">
+            <w function="head"
+               lemma="χαρίζομαι"
+               xml:id="NA28.Phlm.1.22.w14"
+               old_id="NT.Phlm.w308"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="57 40 37"
+               subdomains="57.102 57.223 40.10 37.30"
+               tense="future"
+               person="first"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.22.w15"
+              old_id="NT.Phlm.1_wg161">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.22.w15"
+               old_id="NT.Phlm.w309"
+               pos="pronoun"
+               case="dative"
+               number="plural"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.23" unit="verse" n="23"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.23.w1-24.w7" old_id="NT.Phlm.1_c47">
+         <seg function="predicator"
+              type="wg"
+              xml:id="NA28.Phlm.1.23.w1"
+              old_id="NT.Phlm.1_wg162">
+            <w function="head"
+               lemma="ἀσπάζομαι"
+               xml:id="NA28.Phlm.1.23.w1"
+               old_id="NT.Phlm.w310"
+               pos="finite"
+               voice="middle-or-passive"
+               mood="indicative"
+               number="singular"
+               domains="33 25 34"
+               subdomains="33.20 25.130 34.55"
+               tense="present"
+               person="third"/>
+         </seg>
+         <seg function="complement"
+              type="wg"
+              xml:id="NA28.Phlm.1.23.w2"
+              old_id="NT.Phlm.1_wg163">
+            <w function="head"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.23.w2"
+               old_id="NT.Phlm.w311"
+               pos="pronoun"
+               case="accusative"
+               number="singular"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+         <seg function="subject" xml:id="NA28.Phlm.1.23.w3-24.w7">
+            <seg type="wg" xml:id="NA28.Phlm.1.23.w3-w9" old_id="NT.Phlm.1_wg164">
+               <w function="head"
+                  lemma="Ἐπαφρᾶς"
+                  xml:id="NA28.Phlm.1.23.w3"
+                  old_id="NT.Phlm.w312"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.120."/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.23.w4-w9">
+                  <w function="specifier"
+                     lemma="ὁ"
+                     xml:id="NA28.Phlm.1.23.w4"
+                     old_id="NT.Phlm.w313"
+                     pos="article"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.24"/>
+                  <w function="head"
+                     lemma="συναιχμάλωτος"
+                     xml:id="NA28.Phlm.1.23.w5"
+                     old_id="NT.Phlm.w314"
+                     pos="noun"
+                     gender="masculine"
+                     case="nominative"
+                     number="singular"
+                     domains="37"
+                     subdomains="37.118"/>
+                  <w function="qualifier"
+                     lemma="ἐγώ"
+                     xml:id="NA28.Phlm.1.23.w6"
+                     old_id="NT.Phlm.w315"
+                     pos="pronoun"
+                     case="genitive"
+                     number="singular"
+                     domains="92"
+                     subdomains="92.1"/>
+                  <seg function="relator" type="wg" xml:id="NA28.Phlm.1.23.w7-w9">
+                     <w function="specifier"
+                        lemma="ἐν"
+                        xml:id="NA28.Phlm.1.23.w7"
+                        old_id="NT.Phlm.w316"
+                        pos="preposition"
+                        domains="83 13 84 89 90 67"
+                        subdomains="83.13 83.9 83.47 83.23 13.8 84.22 89.119 89.80 89.84 89.5 89.141 89.76 89.26 89.48 90.10 90.56 90.56 90.6 90.30 90.23 67.33 67.136"/>
+                     <w function="head"
+                        lemma="Χριστός"
+                        xml:id="NA28.Phlm.1.23.w8"
+                        old_id="NT.Phlm.w317"
+                        pos="noun"
+                        gender="masculine"
+                        case="dative"
+                        number="singular"
+                        domains="93 53"
+                        subdomains="93.387 53.82"/>
+                     <w function="qualifier"
+                        lemma="Ἰησοῦς"
+                        xml:id="NA28.Phlm.1.23.w9"
+                        old_id="NT.Phlm.w318"
+                        pos="noun"
+                        gender="masculine"
+                        case="dative"
+                        number="singular"
+                        domains="93"
+                        subdomains="93.169"/>
+                  </seg>
+               </seg>
+            </seg>
+            <milestone xml:id="NA28.Phlm.1.24" unit="verse" n="24"/>
+            <seg type="wg" xml:id="NA28.Phlm.1.24.w1" old_id="NT.Phlm.1_wg165">
+               <w function="head"
+                  lemma="Μᾶρκος"
+                  xml:id="NA28.Phlm.1.24.w1"
+                  old_id="NT.Phlm.w319"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.255"/>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.24.w2" old_id="NT.Phlm.1_wg166">
+               <w function="head"
+                  lemma="Ἀρίσταρχος"
+                  xml:id="NA28.Phlm.1.24.w2"
+                  old_id="NT.Phlm.w320"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.38"/>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.24.w3" old_id="NT.Phlm.1_wg167">
+               <w function="head"
+                  lemma="Δημᾶς"
+                  xml:id="NA28.Phlm.1.24.w3"
+                  old_id="NT.Phlm.w321"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.92"/>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.24.w4" old_id="NT.Phlm.1_wg168">
+               <w function="head"
+                  lemma="Λουκᾶς"
+                  xml:id="NA28.Phlm.1.24.w4"
+                  old_id="NT.Phlm.w322"
+                  pos="noun"
+                  gender="masculine"
+                  case="nominative"
+                  number="singular"
+                  domains="93"
+                  subdomains="93.234"/>
+            </seg>
+            <seg type="wg" xml:id="NA28.Phlm.1.24.w5-w7" old_id="NT.Phlm.1_wg169">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.24.w5"
+                  old_id="NT.Phlm.w323"
+                  pos="article"
+                  gender="masculine"
+                  case="nominative"
+                  number="plural"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="συνεργός"
+                  xml:id="NA28.Phlm.1.24.w6"
+                  old_id="NT.Phlm.w324"
+                  pos="adjective"
+                  gender="masculine"
+                  case="nominative"
+                  number="plural"
+                  domains="42"
+                  subdomains="42.44"/>
+               <w function="qualifier"
+                  lemma="ἐγώ"
+                  xml:id="NA28.Phlm.1.24.w7"
+                  old_id="NT.Phlm.w325"
+                  pos="pronoun"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.1"/>
+            </seg>
+         </seg>
+      </seg>
+      <milestone xml:id="NA28.Phlm.1.25" unit="verse" n="25"/>
+      <seg type="cl" xml:id="NA28.Phlm.1.25.w1-w10" old_id="NT.Phlm.1_c48">
+         <seg function="subject"
+              type="wg"
+              xml:id="NA28.Phlm.1.25.w1-w6"
+              old_id="NT.Phlm.1_wg170">
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.25.w1"
+               old_id="NT.Phlm.w326"
+               pos="article"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="χάρις"
+               xml:id="NA28.Phlm.1.25.w2"
+               old_id="NT.Phlm.w327"
+               pos="noun"
+               gender="feminine"
+               case="nominative"
+               number="singular"
+               domains="88 57 33 25"
+               subdomains="88.66 57.103 33.350 25.89"/>
+            <seg function="qualifier" type="wg" xml:id="NA28.Phlm.1.25.w3-w6">
+               <w function="specifier"
+                  lemma="ὁ"
+                  xml:id="NA28.Phlm.1.25.w3"
+                  old_id="NT.Phlm.w328"
+                  pos="article"
+                  gender="masculine"
+                  case="genitive"
+                  number="singular"
+                  domains="92"
+                  subdomains="92.24"/>
+               <w function="head"
+                  lemma="κύριος"
+                  xml:id="NA28.Phlm.1.25.w4"
+                  old_id="NT.Phlm.w329"
+                  pos="noun"
+                  gender="masculine"
+                  case="genitive"
+                  number="singular"
+                  domains="12 57 37 87"
+                  subdomains="12.9 57.12 37.51 87.53"/>
+               <seg function="definer" type="wg" xml:id="NA28.Phlm.1.25.w5-w6">
+                  <w function="head"
+                     lemma="Ἰησοῦς"
+                     xml:id="NA28.Phlm.1.25.w5"
+                     old_id="NT.Phlm.w330"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="93"
+                     subdomains="93.169"/>
+                  <w function="definer"
+                     lemma="Χριστός"
+                     xml:id="NA28.Phlm.1.25.w6"
+                     old_id="NT.Phlm.w331"
+                     pos="noun"
+                     gender="masculine"
+                     case="genitive"
+                     number="singular"
+                     domains="93 53"
+                     subdomains="93.387 53.82"/>
+               </seg>
+            </seg>
+         </seg>
+         <seg function="adjunct"
+              type="wg"
+              xml:id="NA28.Phlm.1.25.w7-w10"
+              old_id="NT.Phlm.1_wg171">
+            <w function="specifier"
+               lemma="μετά"
+               xml:id="NA28.Phlm.1.25.w7"
+               old_id="NT.Phlm.w332"
+               pos="preposition"
+               domains="89 90 67 83"
+               subdomains="89.108 89.109 89.123 89.79 89.78 90.60 90.32 90.42 67.48 83.9 83.56"/>
+            <w function="specifier"
+               lemma="ὁ"
+               xml:id="NA28.Phlm.1.25.w8"
+               old_id="NT.Phlm.w333"
+               pos="article"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="92"
+               subdomains="92.24"/>
+            <w function="head"
+               lemma="πνεῦμα"
+               xml:id="NA28.Phlm.1.25.w9"
+               old_id="NT.Phlm.w334"
+               pos="noun"
+               gender="neuter"
+               case="genitive"
+               number="singular"
+               domains="12 26 30 14 23"
+               subdomains="12.18 12.33 12.37 12.42 26.9 30.6 14.4 23.186"/>
+            <w function="qualifier"
+               lemma="σύ"
+               xml:id="NA28.Phlm.1.25.w10"
+               old_id="NT.Phlm.w335"
+               pos="pronoun"
+               case="genitive"
+               number="plural"
+               domains="92"
+               subdomains="92.6"/>
+         </seg>
+      </seg>
+   </text>
+</OpenText>
