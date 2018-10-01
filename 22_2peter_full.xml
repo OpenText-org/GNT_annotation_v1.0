@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenText xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:fn="http://www.w3.org/2005/xpath-functions">
-   <Header>
+   <header>
       <fileDesc>
          <titleStmt>
             <title>The OpenText.org Syntactically Annotated Greek New Testament</title>
@@ -34,7 +34,7 @@
             <refState unit="verse"/>
          </refsDecl>
       </encodingDesc>
-   </Header>
+   </header>
    <text xml:id="NA28.2Pet">
       <milestone xml:id="NA28.2Pet.1" unit="chapter" n="1"/>
       <milestone xml:id="NA28.2Pet.1.1" unit="verse" n="1"/>
@@ -7622,7 +7622,7 @@
                old_id="NT.2Pet.w559"
                pos="noun"
                gender="masculine"
-               case="genitive"
+               case="dative"
                number="singular"
                domains="12 57 37 87"
                subdomains="12.9 57.12 37.51 87.53"/>
@@ -8466,7 +8466,7 @@
                   number="plural"
                   domains="15 85 13 30 34 35"
                   subdomains="15.57 85.65 13.92 30.51 34.40 35.17"
-                  tense="present"/>
+                  tense="aorist"/>
             </seg>
             <seg function="complement"
                  type="wg"
@@ -9243,7 +9243,7 @@
                  xml:id="NA28.2Pet.2.18.w11"
                  old_id="NT.2Pet.2_wg187">
                <w function="head"
-                  lemma="ὀλίγως"
+                  lemma="ὄντως"
                   xml:id="NA28.2Pet.2.18.w11"
                   old_id="NT.2Pet.w674"
                   pos="adverb"
@@ -11713,9 +11713,9 @@
                xml:id="NA28.2Pet.3.6.w2"
                old_id="NT.2Pet.w854"
                pos="pronoun"
-               gender="neuter"
-               case="genitive"
-               number="plural"
+               gender="masculine"
+               case="accusative"
+               number="singular"
                domains="92"
                subdomains="92.27"/>
          </seg>
@@ -14407,7 +14407,7 @@
                number="plural"
                domains="33"
                subdomains="33.155"
-               tense="present"
+               tense="future"
                person="third"/>
          </seg>
          <seg type="cl"

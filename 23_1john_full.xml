@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenText xmlns:xs="http://www.w3.org/2001/XMLSchema"
           xmlns:fn="http://www.w3.org/2005/xpath-functions">
-   <Header>
+   <header>
       <fileDesc>
          <titleStmt>
             <title>The OpenText.org Syntactically Annotated Greek New Testament</title>
@@ -34,7 +34,7 @@
             <refState unit="verse"/>
          </refsDecl>
       </encodingDesc>
-   </Header>
+   </header>
    <text xml:id="NA28.1John">
       <milestone xml:id="NA28.1John.1" unit="chapter" n="1"/>
       <milestone xml:id="NA28.1John.1.1" unit="verse" n="1"/>
@@ -12657,7 +12657,7 @@
               xml:id="NA28.1John.3.7.w1"
               old_id="NT.1Joh.3_wg87">
             <w function="head"
-               lemma="τεκνίον"
+               lemma="παιδίον"
                xml:id="NA28.1John.3.7.w1"
                old_id="NT.1Joh.w902"
                pos="noun"
